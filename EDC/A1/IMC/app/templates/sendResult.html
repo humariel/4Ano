@@ -1,0 +1,16 @@
+<html>
+
+    {% if imc < 18.5  %}
+    <h2>O valor de IMC é {{ imc }}. Abaixo do peso ideal.</h2>
+    {% elif imc >= 18.5 and imc < 25  %}
+    <h2>O valor de IMC é {{ imc }}. Peso normal.</h2>
+    {% elif imc >= 25 and imc < 30  %}
+    <h2>O valor de IMC é {{ imc }}. Excesso de peso.</h2>
+    {% elif imc >= 30 and imc < 35  %}
+    <h2>O valor de IMC é {{ imc }}. Obesidade grau 1.</h2>
+    {% elif imc >= 35 and imc < 40  %}
+    <h2>O valor de IMC é {{ imc }}. Obesidade grau 2.</h2>
+    {% elif imc >= 40 %}
+    <h2>O valor de IMC é {{ imc }}. Obesidade grau 3.</h2>
+    {% endif %}
+</html>

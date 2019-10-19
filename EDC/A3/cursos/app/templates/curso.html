@@ -1,0 +1,16 @@
+<html>
+<body>
+    {% block content %}
+        <h1>{{ nome }}</h1>
+        <h1>{{ grau }}</h1>
+        <h1>{{ codigo }}</h1>
+        <h1>{{ local }}</h1>
+        {% for x in departamentos %}
+            <h1>{{ x }}</h1>
+        {% endfor %}
+        {% for x in areascientificas %}
+            <h1>{{ x }}</h1>
+        {% endfor %}
+    {% endblock %}
+</body>
+</html>

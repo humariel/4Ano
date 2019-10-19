@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+<!--
+
+WebGL_example_05.html
+
+Simple WebGL example: viewports in different canvases
+
+J. Madeira - May 2015
+
+-->
+	
+<title>WebGL example 05 &mdash; Several viewports</title>
+
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+<script type="text/javascript">
+    
+    var gl_arr = []; //WebGL contexts
+
+    function initWebGL(i, rgba, canvas) {
+        try {
+				// Create the WebGL context
+				// Some browsers still need "experimental-webgl"
+			
+                tmp = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+                if(!gl_arr.includes(tmp)) {
+                    gl_arr[i] = tmp;
+                }
+			
+				// DEFAULT: The viewport occupies the whole canvas
+                
+                gl_arr[i].clearColor(rgba[0], rgba[1], rgba[2], rgba[3]);  
+                
+                document.getElementById("red-button0" + (i+1)).onclick = function(){
+                    gl_arr[i].clearColor(1, 0, 0, 1);
+
+                    render(i);
+                }
+
+                document.getElementById("green-button0" + (i+1)).onclick = function(){
+                    gl_arr[i].clearColor(0, 1, 0, 1);
+
+                    render(i);
+                }
+
+                document.getElementById("blue-button0" + (i+1)).onclick = function(){
+                    gl_arr[i].clearColor(0, 0, 1, 1);
+
+                    render(i);
+                }
+
+                document.getElementById("white-button0" + (i+1)).onclick = function(){
+                    gl_arr[i].clearColor(1, 1, 1, 1);
+
+                    render(i);
+                }
+
+                document.getElementById("black-button0" + (i+1)).onclick = function(){
+                    gl_arr[i].clearColor(0, 0, 0, 1);
+
+                    render(i);
+                }
+			
+				// Render the viewport
+				render(i); 
+        } catch(e) {
+        }
+        if(gl_arr.length < 1) {
+            alert("Could not initialise WebGL, sorry! :^(");
+        }
+    }
+
+    function render(i) {
+		
+		// Clearing with the background color
+		
+        gl_arr[i].clear(gl_arr[i].COLOR_BUFFER_BIT);
+    }
+    
+    function runWebGL() {
+        var canvas_01 = document.getElementById("canvas-01");
+        
+        initWebGL(0, [0,0,1,1], canvas_01);
+        
+        var canvas_02 = document.getElementById("canvas-02");
+        
+        initWebGL(1, [0,0,0,1], canvas_02);
+
+    }
+
+</script>
+
+</head>
+
+<body onload="runWebGL();">
+
+	<div style="text-align: center">
+		
+		<p>A 200 x 500 viewport!</p>
+		
+        <canvas id="canvas-01" style="border: none" width="500" height="200"></canvas>
+        
+        <p>Set the background color using the buttons:</p>
+		
+		<button id="red-button01">Red</button>
+		<button id="green-button01">Green</button>
+		<button id="blue-button01">Blue</button>
+		<button id="white-button01">White</button>
+		<button id="black-button01">Black</button>
+		
+		<p>Another 200 x 500 viewport!</p>
+		
+        <canvas id="canvas-02" style="border: none" width="500" height="200"></canvas>
+        
+        <p>Set the background color using the buttons:</p>
+		
+		<button id="red-button02">Red</button>
+		<button id="green-button02">Green</button>
+		<button id="blue-button02">Blue</button>
+		<button id="white-button02">White</button>
+		<button id="black-button02">Black</button>
+
+	</div>
+
+</body>
+
+</html>

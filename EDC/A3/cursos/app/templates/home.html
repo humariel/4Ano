@@ -1,0 +1,11 @@
+<html>
+<body>
+    {% block content %}
+        <ul>
+        {% for c in cursos %}
+            <p><a href="{{ c.nome }}">{{ c.display }}</a></p>
+        {% endfor %}
+        </ul>
+    {% endblock %}
+</body>
+</html>
