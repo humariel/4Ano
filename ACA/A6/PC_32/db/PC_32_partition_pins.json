@@ -1,0 +1,161 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "count[0]",
+					"strict" : false
+				},
+				{
+					"name" : "count[1]",
+					"strict" : false
+				},
+				{
+					"name" : "count[2]",
+					"strict" : false
+				},
+				{
+					"name" : "count[3]",
+					"strict" : false
+				},
+				{
+					"name" : "count[4]",
+					"strict" : false
+				},
+				{
+					"name" : "count[5]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[2]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[3]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[0]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[1]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[6]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[7]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[4]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[5]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[10]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[11]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[8]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[9]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[14]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[15]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[12]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[13]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[18]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[19]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[16]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[17]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[22]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[23]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[20]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[21]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[26]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[27]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[24]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[25]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[30]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[31]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[28]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[29]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

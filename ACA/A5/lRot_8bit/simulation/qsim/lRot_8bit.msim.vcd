@@ -1,0 +1,228 @@
+$comment
+	File created using the following command:
+		vcd file lRot_8bit.msim.vcd -direction
+$end
+$date
+	Mon Oct 21 19:55:05 2019
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module lrot_8bit_lr_vhd_vec_tst $end
+$var wire 1 ! dataIn [7] $end
+$var wire 1 " dataIn [6] $end
+$var wire 1 # dataIn [5] $end
+$var wire 1 $ dataIn [4] $end
+$var wire 1 % dataIn [3] $end
+$var wire 1 & dataIn [2] $end
+$var wire 1 ' dataIn [1] $end
+$var wire 1 ( dataIn [0] $end
+$var wire 1 ) dataOut [7] $end
+$var wire 1 * dataOut [6] $end
+$var wire 1 + dataOut [5] $end
+$var wire 1 , dataOut [4] $end
+$var wire 1 - dataOut [3] $end
+$var wire 1 . dataOut [2] $end
+$var wire 1 / dataOut [1] $end
+$var wire 1 0 dataOut [0] $end
+$var wire 1 1 l_r $end
+$var wire 1 2 s [2] $end
+$var wire 1 3 s [1] $end
+$var wire 1 4 s [0] $end
+
+$scope module i1 $end
+$var wire 1 5 gnd $end
+$var wire 1 6 vcc $end
+$var wire 1 7 unknown $end
+$var wire 1 8 devoe $end
+$var wire 1 9 devclrn $end
+$var wire 1 : devpor $end
+$var wire 1 ; ww_devoe $end
+$var wire 1 < ww_devclrn $end
+$var wire 1 = ww_devpor $end
+$var wire 1 > ww_dataIn [7] $end
+$var wire 1 ? ww_dataIn [6] $end
+$var wire 1 @ ww_dataIn [5] $end
+$var wire 1 A ww_dataIn [4] $end
+$var wire 1 B ww_dataIn [3] $end
+$var wire 1 C ww_dataIn [2] $end
+$var wire 1 D ww_dataIn [1] $end
+$var wire 1 E ww_dataIn [0] $end
+$var wire 1 F ww_s [2] $end
+$var wire 1 G ww_s [1] $end
+$var wire 1 H ww_s [0] $end
+$var wire 1 I ww_l_r $end
+$var wire 1 J ww_dataOut [7] $end
+$var wire 1 K ww_dataOut [6] $end
+$var wire 1 L ww_dataOut [5] $end
+$var wire 1 M ww_dataOut [4] $end
+$var wire 1 N ww_dataOut [3] $end
+$var wire 1 O ww_dataOut [2] $end
+$var wire 1 P ww_dataOut [1] $end
+$var wire 1 Q ww_dataOut [0] $end
+$var wire 1 R \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 S \s[0]~input_o\ $end
+$var wire 1 T \l_r~input_o\ $end
+$var wire 1 U \s[1]~input_o\ $end
+$var wire 1 V \s[2]~input_o\ $end
+$var wire 1 W \comb~1_combout\ $end
+$var wire 1 X \dataIn[4]~input_o\ $end
+$var wire 1 Y \comb~0_combout\ $end
+$var wire 1 Z \dataIn[2]~input_o\ $end
+$var wire 1 [ \dataIn[1]~input_o\ $end
+$var wire 1 \ \dataIn[3]~input_o\ $end
+$var wire 1 ] \lRot|blk1|mult4|y~0_combout\ $end
+$var wire 1 ^ \dataIn[6]~input_o\ $end
+$var wire 1 _ \dataIn[5]~input_o\ $end
+$var wire 1 ` \dataIn[0]~input_o\ $end
+$var wire 1 a \dataIn[7]~input_o\ $end
+$var wire 1 b \lRot|blk1|mult0|y~0_combout\ $end
+$var wire 1 c \lRot|blk2|mult0|y~0_combout\ $end
+$var wire 1 d \lRot|blk1|mult5|y~0_combout\ $end
+$var wire 1 e \lRot|blk1|mult1|y~0_combout\ $end
+$var wire 1 f \lRot|blk2|mult1|y~0_combout\ $end
+$var wire 1 g \lRot|blk1|mult2|y~0_combout\ $end
+$var wire 1 h \lRot|blk1|mult6|y~0_combout\ $end
+$var wire 1 i \lRot|blk2|mult2|y~0_combout\ $end
+$var wire 1 j \lRot|blk1|mult7|y~0_combout\ $end
+$var wire 1 k \lRot|blk1|mult3|y~0_combout\ $end
+$var wire 1 l \lRot|blk2|mult3|y~0_combout\ $end
+$var wire 1 m \lRot|blk2|mult4|y~0_combout\ $end
+$var wire 1 n \lRot|blk2|mult5|y~0_combout\ $end
+$var wire 1 o \lRot|blk2|mult6|y~0_combout\ $end
+$var wire 1 p \lRot|blk2|mult7|y~0_combout\ $end
+$var wire 1 q \ALT_INV_dataIn[5]~input_o\ $end
+$var wire 1 r \ALT_INV_dataIn[6]~input_o\ $end
+$var wire 1 s \ALT_INV_dataIn[7]~input_o\ $end
+$var wire 1 t \ALT_INV_dataIn[0]~input_o\ $end
+$var wire 1 u \ALT_INV_s[2]~input_o\ $end
+$var wire 1 v \ALT_INV_s[1]~input_o\ $end
+$var wire 1 w \ALT_INV_l_r~input_o\ $end
+$var wire 1 x \ALT_INV_s[0]~input_o\ $end
+$var wire 1 y \ALT_INV_dataIn[1]~input_o\ $end
+$var wire 1 z \ALT_INV_dataIn[2]~input_o\ $end
+$var wire 1 { \ALT_INV_dataIn[3]~input_o\ $end
+$var wire 1 | \ALT_INV_dataIn[4]~input_o\ $end
+$var wire 1 } \lRot|blk1|mult3|ALT_INV_y~0_combout\ $end
+$var wire 1 ~ \lRot|blk1|mult7|ALT_INV_y~0_combout\ $end
+$var wire 1 !! \lRot|blk1|mult2|ALT_INV_y~0_combout\ $end
+$var wire 1 "! \lRot|blk1|mult6|ALT_INV_y~0_combout\ $end
+$var wire 1 #! \lRot|blk1|mult1|ALT_INV_y~0_combout\ $end
+$var wire 1 $! \lRot|blk1|mult5|ALT_INV_y~0_combout\ $end
+$var wire 1 %! \lRot|blk1|mult0|ALT_INV_y~0_combout\ $end
+$var wire 1 &! \ALT_INV_comb~1_combout\ $end
+$var wire 1 '! \lRot|blk1|mult4|ALT_INV_y~0_combout\ $end
+$var wire 1 (! \ALT_INV_comb~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+01
+05
+16
+x7
+18
+19
+1:
+1;
+1<
+1=
+0I
+xR
+0S
+0T
+1U
+0V
+0W
+0X
+1Y
+0Z
+0[
+0\
+0]
+1^
+1_
+0`
+1a
+1b
+1c
+0d
+1e
+1f
+0g
+0h
+0i
+1j
+0k
+0l
+0m
+0n
+0o
+1p
+0q
+0r
+0s
+1t
+1u
+0v
+1w
+1x
+1y
+1z
+1{
+1|
+1}
+0~
+1!!
+1"!
+0#!
+1$!
+0%!
+1&!
+1'!
+0(!
+1!
+1"
+1#
+0$
+0%
+0&
+0'
+0(
+02
+13
+04
+1>
+1?
+1@
+0A
+0B
+0C
+0D
+0E
+0F
+1G
+0H
+1J
+0K
+0L
+0M
+0N
+0O
+1P
+1Q
+1)
+0*
+0+
+0,
+0-
+0.
+1/
+10
+$end
+#1000000

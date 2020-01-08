@@ -1,0 +1,494 @@
+|HAD_DECODER_PARALLEL
+code[0] => gateXor2:xor4.x2
+code[0] => gateXor2:xor8.x2
+code[0] => gateXor2:xorc.x2
+code[1] => gateXor2:xor4.x1
+code[1] => gateXor2:xor7.x2
+code[1] => gateXor2:xorb.x2
+code[2] => gateXor2:xor3.x2
+code[2] => gateXor2:xor8.x1
+code[2] => gateXor2:xora.x2
+code[3] => gateXor2:xor3.x1
+code[3] => gateXor2:xor7.x1
+code[3] => gateXor2:xor9.x2
+code[4] => gateXor2:xor2.x2
+code[4] => gateXor2:xor6.x2
+code[4] => gateXor2:xorc.x1
+code[5] => gateXor2:xor2.x1
+code[5] => gateXor2:xor5.x2
+code[5] => gateXor2:xorb.x1
+code[6] => gateXor2:xor1.x2
+code[6] => gateXor2:xor6.x1
+code[6] => gateXor2:xora.x1
+code[7] => gateXor2:xor1.x1
+code[7] => gateXor2:xor5.x1
+code[7] => gateXor2:xor9.x1
+code[7] => gateXor2:m3_xor2.x2
+m[0] << gateXor2:m3_xor2.y
+m[1] << validator:val_m2.one
+m[2] << validator:val_m1.one
+m[3] << validator:val_m0.one
+valid << gateAnd3:and1.y
+
+
+|HAD_DECODER_PARALLEL|gateXor2:xor1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:xor2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:xor3
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:xor4
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:xor5
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:xor6
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:xor7
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:xor8
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:xor9
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:xora
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:xorb
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:xorc
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0
+c0 => gateOr2:or1.x2
+c0 => gateAnd2:and3.x2
+c0 => gateNand2:nand1.x2
+c0 => gateNor2:nor2.x2
+c1 => gateOr2:or1.x1
+c1 => gateAnd2:and3.x1
+c1 => gateNand2:nand1.x1
+c1 => gateNor2:nor2.x1
+c2 => gateAnd2:and1.x2
+c2 => gateOr2:or2.x2
+c2 => gateNor2:nor1.x2
+c2 => gateNand2:nand2.x2
+c3 => gateAnd2:and1.x1
+c3 => gateOr2:or2.x1
+c3 => gateNor2:nor1.x1
+c3 => gateNand2:nand2.x1
+one <= gateOr2:or3.y
+valid <= gateOr2:or5.y
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateAnd2:and1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateOr2:or1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateAnd2:and2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateAnd2:and3
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateOr2:or2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateAnd2:and4
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateOr2:or3
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateNor2:nor1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateNand2:nand1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateAnd2:and5
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateNor2:nor2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateNand2:nand2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateAnd2:and6
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateOr2:or4
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m0|gateOr2:or5
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1
+c0 => gateOr2:or1.x2
+c0 => gateAnd2:and3.x2
+c0 => gateNand2:nand1.x2
+c0 => gateNor2:nor2.x2
+c1 => gateOr2:or1.x1
+c1 => gateAnd2:and3.x1
+c1 => gateNand2:nand1.x1
+c1 => gateNor2:nor2.x1
+c2 => gateAnd2:and1.x2
+c2 => gateOr2:or2.x2
+c2 => gateNor2:nor1.x2
+c2 => gateNand2:nand2.x2
+c3 => gateAnd2:and1.x1
+c3 => gateOr2:or2.x1
+c3 => gateNor2:nor1.x1
+c3 => gateNand2:nand2.x1
+one <= gateOr2:or3.y
+valid <= gateOr2:or5.y
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateAnd2:and1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateOr2:or1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateAnd2:and2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateAnd2:and3
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateOr2:or2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateAnd2:and4
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateOr2:or3
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateNor2:nor1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateNand2:nand1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateAnd2:and5
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateNor2:nor2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateNand2:nand2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateAnd2:and6
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateOr2:or4
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m1|gateOr2:or5
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2
+c0 => gateOr2:or1.x2
+c0 => gateAnd2:and3.x2
+c0 => gateNand2:nand1.x2
+c0 => gateNor2:nor2.x2
+c1 => gateOr2:or1.x1
+c1 => gateAnd2:and3.x1
+c1 => gateNand2:nand1.x1
+c1 => gateNor2:nor2.x1
+c2 => gateAnd2:and1.x2
+c2 => gateOr2:or2.x2
+c2 => gateNor2:nor1.x2
+c2 => gateNand2:nand2.x2
+c3 => gateAnd2:and1.x1
+c3 => gateOr2:or2.x1
+c3 => gateNor2:nor1.x1
+c3 => gateNand2:nand2.x1
+one <= gateOr2:or3.y
+valid <= gateOr2:or5.y
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateAnd2:and1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateOr2:or1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateAnd2:and2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateAnd2:and3
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateOr2:or2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateAnd2:and4
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateOr2:or3
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateNor2:nor1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateNand2:nand1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateAnd2:and5
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateNor2:nor2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateNand2:nand2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateAnd2:and6
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateOr2:or4
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|validator:val_m2|gateOr2:or5
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor4:s_x
+x1 => y.IN0
+x2 => y.IN1
+x3 => y.IN1
+x4 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor4:s_y
+x1 => y.IN0
+x2 => y.IN1
+x3 => y.IN1
+x4 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor4:s_z
+x1 => y.IN0
+x2 => y.IN1
+x3 => y.IN1
+x4 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateNor3:m3_nor
+x1 => y.IN0
+x2 => y.IN1
+x3 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:m3_xor1
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateAnd2:m3_and
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateXor2:m3_xor2
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_DECODER_PARALLEL|gateAnd3:and1
+x1 => y.IN0
+x2 => y.IN1
+x3 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

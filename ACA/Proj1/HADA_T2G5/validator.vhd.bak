@@ -1,0 +1,12 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY validator IS
+	PORT( c0, c1, c2, c3: IN STD_LOGIC;
+			valid : OUT STD_LOGIC);
+END validator;
+
+ARCHITECTURE logic OF validator IS
+BEGIN
+
+END logic;

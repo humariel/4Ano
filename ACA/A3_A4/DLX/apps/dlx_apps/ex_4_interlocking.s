@@ -33,13 +33,15 @@ if:	slt	r10, r7, r9
 	sw	(r8), r5	; values[j] = tmp
 endif:
 	srli	r4, r4, 2	;dividir j por 4
-	addi	r4, r4, 1	; j++
 	j 	forj
-	nop
+	addi	r4, r4, 1	; j++
+	
+	;nop
 endj:	
 	srli	r3, r3, 2	; dividir i por 4
-	addi	r3, r3, 1	; i++
 	j	fori
-	nop
+	addi	r3, r3, 1	; i++
+	
+	;nop
 endi:  
  	trap 0

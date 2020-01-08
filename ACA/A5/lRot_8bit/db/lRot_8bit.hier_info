@@ -1,0 +1,358 @@
+|lRot_8bit_LR
+dataIn[0] => lRot_8bit:lRot.dIn[0]
+dataIn[1] => lRot_8bit:lRot.dIn[1]
+dataIn[2] => lRot_8bit:lRot.dIn[2]
+dataIn[3] => lRot_8bit:lRot.dIn[3]
+dataIn[4] => lRot_8bit:lRot.dIn[4]
+dataIn[5] => lRot_8bit:lRot.dIn[5]
+dataIn[6] => lRot_8bit:lRot.dIn[6]
+dataIn[7] => lRot_8bit:lRot.dIn[7]
+s[0] => comb.IN0
+s[0] => Add0.IN6
+s[1] => comb.IN0
+s[1] => Add0.IN5
+s[2] => comb.IN0
+s[2] => Add0.IN4
+l_r => comb.IN1
+l_r => comb.IN1
+l_r => comb.IN1
+l_r => comb.IN1
+l_r => comb.IN1
+l_r => comb.IN1
+dataOut[0] <= lRot_8bit:lRot.dOut[0]
+dataOut[1] <= lRot_8bit:lRot.dOut[1]
+dataOut[2] <= lRot_8bit:lRot.dOut[2]
+dataOut[3] <= lRot_8bit:lRot.dOut[3]
+dataOut[4] <= lRot_8bit:lRot.dOut[4]
+dataOut[5] <= lRot_8bit:lRot.dOut[5]
+dataOut[6] <= lRot_8bit:lRot.dOut[6]
+dataOut[7] <= lRot_8bit:lRot.dOut[7]
+
+
+|lRot_8bit_LR|lRot_8bit:lRot
+dIn[0] => blk8of2to1mult:blk0.x00
+dIn[0] => blk8of2to1mult:blk0.x11
+dIn[1] => blk8of2to1mult:blk0.x10
+dIn[1] => blk8of2to1mult:blk0.x21
+dIn[2] => blk8of2to1mult:blk0.x20
+dIn[2] => blk8of2to1mult:blk0.x31
+dIn[3] => blk8of2to1mult:blk0.x30
+dIn[3] => blk8of2to1mult:blk0.x41
+dIn[4] => blk8of2to1mult:blk0.x40
+dIn[4] => blk8of2to1mult:blk0.x51
+dIn[5] => blk8of2to1mult:blk0.x50
+dIn[5] => blk8of2to1mult:blk0.x61
+dIn[6] => blk8of2to1mult:blk0.x60
+dIn[6] => blk8of2to1mult:blk0.x71
+dIn[7] => blk8of2to1mult:blk0.x01
+dIn[7] => blk8of2to1mult:blk0.x70
+sel[0] => blk8of2to1mult:blk0.sel
+sel[1] => blk8of2to1mult:blk1.sel
+sel[2] => blk8of2to1mult:blk2.sel
+dOut[0] <= blk8of2to1mult:blk2.y0
+dOut[1] <= blk8of2to1mult:blk2.y1
+dOut[2] <= blk8of2to1mult:blk2.y2
+dOut[3] <= blk8of2to1mult:blk2.y3
+dOut[4] <= blk8of2to1mult:blk2.y4
+dOut[5] <= blk8of2to1mult:blk2.y5
+dOut[6] <= blk8of2to1mult:blk2.y6
+dOut[7] <= blk8of2to1mult:blk2.y7
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk0
+x00 => mult2to1:mult0.x0
+x01 => mult2to1:mult0.x1
+x10 => mult2to1:mult1.x0
+x11 => mult2to1:mult1.x1
+x20 => mult2to1:mult2.x0
+x21 => mult2to1:mult2.x1
+x30 => mult2to1:mult3.x0
+x31 => mult2to1:mult3.x1
+x40 => mult2to1:mult4.x0
+x41 => mult2to1:mult4.x1
+x50 => mult2to1:mult5.x0
+x51 => mult2to1:mult5.x1
+x60 => mult2to1:mult6.x0
+x61 => mult2to1:mult6.x1
+x70 => mult2to1:mult7.x0
+x71 => mult2to1:mult7.x1
+sel => mult2to1:mult0.s
+sel => mult2to1:mult1.s
+sel => mult2to1:mult2.s
+sel => mult2to1:mult3.s
+sel => mult2to1:mult4.s
+sel => mult2to1:mult5.s
+sel => mult2to1:mult6.s
+sel => mult2to1:mult7.s
+y0 <= mult2to1:mult0.y
+y1 <= mult2to1:mult1.y
+y2 <= mult2to1:mult2.y
+y3 <= mult2to1:mult3.y
+y4 <= mult2to1:mult4.y
+y5 <= mult2to1:mult5.y
+y6 <= mult2to1:mult6.y
+y7 <= mult2to1:mult7.y
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk0|mult2to1:mult0
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk0|mult2to1:mult1
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk0|mult2to1:mult2
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk0|mult2to1:mult3
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk0|mult2to1:mult4
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk0|mult2to1:mult5
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk0|mult2to1:mult6
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk0|mult2to1:mult7
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk1
+x00 => mult2to1:mult0.x0
+x01 => mult2to1:mult0.x1
+x10 => mult2to1:mult1.x0
+x11 => mult2to1:mult1.x1
+x20 => mult2to1:mult2.x0
+x21 => mult2to1:mult2.x1
+x30 => mult2to1:mult3.x0
+x31 => mult2to1:mult3.x1
+x40 => mult2to1:mult4.x0
+x41 => mult2to1:mult4.x1
+x50 => mult2to1:mult5.x0
+x51 => mult2to1:mult5.x1
+x60 => mult2to1:mult6.x0
+x61 => mult2to1:mult6.x1
+x70 => mult2to1:mult7.x0
+x71 => mult2to1:mult7.x1
+sel => mult2to1:mult0.s
+sel => mult2to1:mult1.s
+sel => mult2to1:mult2.s
+sel => mult2to1:mult3.s
+sel => mult2to1:mult4.s
+sel => mult2to1:mult5.s
+sel => mult2to1:mult6.s
+sel => mult2to1:mult7.s
+y0 <= mult2to1:mult0.y
+y1 <= mult2to1:mult1.y
+y2 <= mult2to1:mult2.y
+y3 <= mult2to1:mult3.y
+y4 <= mult2to1:mult4.y
+y5 <= mult2to1:mult5.y
+y6 <= mult2to1:mult6.y
+y7 <= mult2to1:mult7.y
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk1|mult2to1:mult0
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk1|mult2to1:mult1
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk1|mult2to1:mult2
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk1|mult2to1:mult3
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk1|mult2to1:mult4
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk1|mult2to1:mult5
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk1|mult2to1:mult6
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk1|mult2to1:mult7
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk2
+x00 => mult2to1:mult0.x0
+x01 => mult2to1:mult0.x1
+x10 => mult2to1:mult1.x0
+x11 => mult2to1:mult1.x1
+x20 => mult2to1:mult2.x0
+x21 => mult2to1:mult2.x1
+x30 => mult2to1:mult3.x0
+x31 => mult2to1:mult3.x1
+x40 => mult2to1:mult4.x0
+x41 => mult2to1:mult4.x1
+x50 => mult2to1:mult5.x0
+x51 => mult2to1:mult5.x1
+x60 => mult2to1:mult6.x0
+x61 => mult2to1:mult6.x1
+x70 => mult2to1:mult7.x0
+x71 => mult2to1:mult7.x1
+sel => mult2to1:mult0.s
+sel => mult2to1:mult1.s
+sel => mult2to1:mult2.s
+sel => mult2to1:mult3.s
+sel => mult2to1:mult4.s
+sel => mult2to1:mult5.s
+sel => mult2to1:mult6.s
+sel => mult2to1:mult7.s
+y0 <= mult2to1:mult0.y
+y1 <= mult2to1:mult1.y
+y2 <= mult2to1:mult2.y
+y3 <= mult2to1:mult3.y
+y4 <= mult2to1:mult4.y
+y5 <= mult2to1:mult5.y
+y6 <= mult2to1:mult6.y
+y7 <= mult2to1:mult7.y
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk2|mult2to1:mult0
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk2|mult2to1:mult1
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk2|mult2to1:mult2
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk2|mult2to1:mult3
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk2|mult2to1:mult4
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk2|mult2to1:mult5
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk2|mult2to1:mult6
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lRot_8bit_LR|lRot_8bit:lRot|blk8of2to1mult:blk2|mult2to1:mult7
+x0 => y.IN0
+x1 => y.IN0
+s => y.IN1
+s => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

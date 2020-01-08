@@ -1,0 +1,8 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY bitEncoder IS
+	PORT( dIn: IN STD_LOGIC;
+			mult: IN STD_LOGIC;
+			dOut: OUT STD_LOGIC);
+END bitEncoder;

@@ -1,0 +1,2 @@
+device infor
+tranferencias de memoria tempos

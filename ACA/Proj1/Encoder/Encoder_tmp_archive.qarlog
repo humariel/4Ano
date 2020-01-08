@@ -1,0 +1,36 @@
+Quartus Prime Archive log --	/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/Encoder_tmp_archive.qarlog
+
+Archive:	/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/Encoder_tmp_archive.qar
+Date:		Sat Nov 16 02:07:56 2019
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/gabriel/Quartus/quartus/linux64/assignment_defaults.qdf
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/Encoder.qpf
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/Encoder.qsf
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/HAD_DECODER_PARALLEL.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/HAD_ENCODER_PARALLEL.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/HAD_ENCODER_PARALLEL.vwf
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/HAD_ENCODER_SERIE.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/Waveform6.vwf
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/arithmetic.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/binCounter_3bit.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/bitEncoder.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/contMem.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/control.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/flipFlopD.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/parReg_1bit.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/parReg_8bit.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/simpleLogic.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/storeDev.vhd
+/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/validator.vhd
+	======= Total: 19 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat Nov 16 02:07:58 2019
+Source archive file:	/home/gabriel/UA/4Ano/ACA/Proj1/Encoder/Encoder_tmp_archive.qar
+Archive was extracted into	/home/gabriel/UA/4Ano/ACA/Proj1/HAD_T2G5/
+		 - successfully.

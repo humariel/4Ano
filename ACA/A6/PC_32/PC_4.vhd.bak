@@ -1,0 +1,14 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+
+ENTITY PC4 IS
+	PORT( dataIn: IN STD_LOGIC_VECTOR(3 downto 0);
+			count: OUT STD_LOGIC_VECTOR(2 downto 0));
+END PC4;
+
+ARCHITECTURE logic OF PC4 IS
+BEGIN
+	sum <= cin XOR (in0 XOR in1);
+	cout <= (in0 AND in1) OR (in1 AND cin) OR (in0 AND cin);
+END logic;

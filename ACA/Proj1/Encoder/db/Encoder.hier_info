@@ -1,0 +1,66 @@
+|HAD_ENCODER_PARALLEL
+m[0] => gateXor2:m0m3.x2
+m[0] => gateXor2:m1m3.x2
+m[0] => gateXor2:code4.x2
+m[0] => code[7].DATAIN
+m[1] => gateXor2:code4.x1
+m[1] => gateXor2:code5.x1
+m[1] => gateXor2:code6.x1
+m[1] => gateXor3:code7.x1
+m[2] => gateXor2:m1m3.x1
+m[2] => gateXor3:code7.x2
+m[3] => gateXor2:m0m3.x1
+m[3] => gateXor2:code3.x1
+code[0] << gateXor3:code7.y
+code[1] << gateXor2:code6.y
+code[2] << gateXor2:code5.y
+code[3] << gateXor2:code4.y
+code[4] << gateXor2:code3.y
+code[5] << gateXor2:m1m3.y
+code[6] << gateXor2:m0m3.y
+code[7] << m[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_ENCODER_PARALLEL|gateXor2:m0m3
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_ENCODER_PARALLEL|gateXor2:m1m3
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_ENCODER_PARALLEL|gateXor2:code3
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_ENCODER_PARALLEL|gateXor2:code4
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_ENCODER_PARALLEL|gateXor2:code5
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_ENCODER_PARALLEL|gateXor2:code6
+x1 => y.IN0
+x2 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HAD_ENCODER_PARALLEL|gateXor3:code7
+x1 => y.IN0
+x2 => y.IN1
+x3 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

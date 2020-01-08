@@ -1,0 +1,25 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY HAD_ENCODER_PARALLEL IS
+	PORT( m: IN STD_LOGIC_VECTOR(3 downto 0);
+			code: OUT STD_LOGIC_VECTOR(7 downto 0));
+END HAD_ENCODER_PARALLEL;
+
+ARCHITECTURE logic OF HAD_ENCODER_PARALLEL IS
+	SIGNAL m0_m3 : STD_LOGIC;
+	SIGNAL m1_m3 : STD_LOGIC;
+BEGIN
+	--8 XOR 2 ATRASOS--
+	m0_m3 <= m(0) XOR m(3);
+	m1_m3 <= m(1) XOR m(3);
+	
+	code(0) <= m(3);
+	code(1) <= m0_m3;
+	code(2) <= m1_m3;
+	code(3) <= m(1) XOR m0_m3;
+	code(4) <= m(2) XOR m(3);
+	code(5) <= m(2) XOR m0_m3;
+	code(6) <= m(2) XOR m1_m3;
+	code(7) <=  m(1) XOR m(2) XOR m0_m3;
+END LOGIC;

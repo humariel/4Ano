@@ -1,0 +1,825 @@
+|PC_32
+datain[0] => PC_4:PC4_0.dataIn[0]
+datain[1] => PC_4:PC4_0.dataIn[1]
+datain[2] => PC_4:PC4_0.dataIn[2]
+datain[3] => PC_4:PC4_0.dataIn[3]
+datain[4] => PC_4:PC4_1.dataIn[0]
+datain[5] => PC_4:PC4_1.dataIn[1]
+datain[6] => PC_4:PC4_1.dataIn[2]
+datain[7] => PC_4:PC4_1.dataIn[3]
+datain[8] => PC_4:PC4_2.dataIn[0]
+datain[9] => PC_4:PC4_2.dataIn[1]
+datain[10] => PC_4:PC4_2.dataIn[2]
+datain[11] => PC_4:PC4_2.dataIn[3]
+datain[12] => PC_4:PC4_3.dataIn[0]
+datain[13] => PC_4:PC4_3.dataIn[1]
+datain[14] => PC_4:PC4_3.dataIn[2]
+datain[15] => PC_4:PC4_3.dataIn[3]
+datain[16] => PC_4:PC4_4.dataIn[0]
+datain[17] => PC_4:PC4_4.dataIn[1]
+datain[18] => PC_4:PC4_4.dataIn[2]
+datain[19] => PC_4:PC4_4.dataIn[3]
+datain[20] => PC_4:PC4_5.dataIn[0]
+datain[21] => PC_4:PC4_5.dataIn[1]
+datain[22] => PC_4:PC4_5.dataIn[2]
+datain[23] => PC_4:PC4_5.dataIn[3]
+datain[24] => PC_4:PC4_6.dataIn[0]
+datain[25] => PC_4:PC4_6.dataIn[1]
+datain[26] => PC_4:PC4_6.dataIn[2]
+datain[27] => PC_4:PC4_6.dataIn[3]
+datain[28] => PC_4:PC4_7.dataIn[0]
+datain[29] => PC_4:PC4_7.dataIn[1]
+datain[30] => PC_4:PC4_7.dataIn[2]
+datain[31] => PC_4:PC4_7.dataIn[3]
+count[0] <= FA_5bit:FA5.sum[0]
+count[1] <= FA_5bit:FA5.sum[1]
+count[2] <= FA_5bit:FA5.sum[2]
+count[3] <= FA_5bit:FA5.sum[3]
+count[4] <= FA_5bit:FA5.sum[4]
+count[5] <= FA_5bit:FA5.cout
+
+
+|PC_32|PC_4:PC4_0
+dataIn[0] => count.IN1
+dataIn[0] => count.IN0
+dataIn[0] => count.IN1
+dataIn[0] => count.IN1
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN1
+dataIn[2] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN0
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|PC_4:PC4_1
+dataIn[0] => count.IN1
+dataIn[0] => count.IN0
+dataIn[0] => count.IN1
+dataIn[0] => count.IN1
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN1
+dataIn[2] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN0
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|PC_4:PC4_2
+dataIn[0] => count.IN1
+dataIn[0] => count.IN0
+dataIn[0] => count.IN1
+dataIn[0] => count.IN1
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN1
+dataIn[2] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN0
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|PC_4:PC4_3
+dataIn[0] => count.IN1
+dataIn[0] => count.IN0
+dataIn[0] => count.IN1
+dataIn[0] => count.IN1
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN1
+dataIn[2] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN0
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|PC_4:PC4_4
+dataIn[0] => count.IN1
+dataIn[0] => count.IN0
+dataIn[0] => count.IN1
+dataIn[0] => count.IN1
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN1
+dataIn[2] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN0
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|PC_4:PC4_5
+dataIn[0] => count.IN1
+dataIn[0] => count.IN0
+dataIn[0] => count.IN1
+dataIn[0] => count.IN1
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN1
+dataIn[2] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN0
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|PC_4:PC4_6
+dataIn[0] => count.IN1
+dataIn[0] => count.IN0
+dataIn[0] => count.IN1
+dataIn[0] => count.IN1
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN1
+dataIn[2] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN0
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|PC_4:PC4_7
+dataIn[0] => count.IN1
+dataIn[0] => count.IN0
+dataIn[0] => count.IN1
+dataIn[0] => count.IN1
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[1] => count.IN0
+dataIn[1] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN1
+dataIn[2] => count.IN1
+dataIn[2] => count.IN0
+dataIn[2] => count.IN0
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+dataIn[3] => count.IN1
+count[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_3bit:FA3_0
+A[0] => FA_1bit:fa1bit.in0
+A[1] => FA_2bit:fa2bit.A[0]
+A[2] => FA_2bit:fa2bit.A[1]
+B[0] => FA_1bit:fa1bit.in1
+B[1] => FA_2bit:fa2bit.B[0]
+B[2] => FA_2bit:fa2bit.B[1]
+cin => FA_1bit:fa1bit.cin
+sum[0] <= FA_1bit:fa1bit.sum
+sum[1] <= FA_2bit:fa2bit.sum[0]
+sum[2] <= FA_2bit:fa2bit.sum[1]
+cout <= FA_2bit:fa2bit.cout
+
+
+|PC_32|FA_3bit:FA3_0|FA_1bit:fa1bit
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_3bit:FA3_0|FA_2bit:fa2bit
+A[0] => FA_1bit:fa1bit_0.in0
+A[1] => FA_1bit:fa1bit_1.in0
+B[0] => FA_1bit:fa1bit_0.in1
+B[1] => FA_1bit:fa1bit_1.in1
+cin => FA_1bit:fa1bit_0.cin
+sum[0] <= FA_1bit:fa1bit_0.sum
+sum[1] <= FA_1bit:fa1bit_1.sum
+cout <= FA_1bit:fa1bit_1.cout
+
+
+|PC_32|FA_3bit:FA3_0|FA_2bit:fa2bit|FA_1bit:fa1bit_0
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_3bit:FA3_0|FA_2bit:fa2bit|FA_1bit:fa1bit_1
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_3bit:FA3_1
+A[0] => FA_1bit:fa1bit.in0
+A[1] => FA_2bit:fa2bit.A[0]
+A[2] => FA_2bit:fa2bit.A[1]
+B[0] => FA_1bit:fa1bit.in1
+B[1] => FA_2bit:fa2bit.B[0]
+B[2] => FA_2bit:fa2bit.B[1]
+cin => FA_1bit:fa1bit.cin
+sum[0] <= FA_1bit:fa1bit.sum
+sum[1] <= FA_2bit:fa2bit.sum[0]
+sum[2] <= FA_2bit:fa2bit.sum[1]
+cout <= FA_2bit:fa2bit.cout
+
+
+|PC_32|FA_3bit:FA3_1|FA_1bit:fa1bit
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_3bit:FA3_1|FA_2bit:fa2bit
+A[0] => FA_1bit:fa1bit_0.in0
+A[1] => FA_1bit:fa1bit_1.in0
+B[0] => FA_1bit:fa1bit_0.in1
+B[1] => FA_1bit:fa1bit_1.in1
+cin => FA_1bit:fa1bit_0.cin
+sum[0] <= FA_1bit:fa1bit_0.sum
+sum[1] <= FA_1bit:fa1bit_1.sum
+cout <= FA_1bit:fa1bit_1.cout
+
+
+|PC_32|FA_3bit:FA3_1|FA_2bit:fa2bit|FA_1bit:fa1bit_0
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_3bit:FA3_1|FA_2bit:fa2bit|FA_1bit:fa1bit_1
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_3bit:FA3_2
+A[0] => FA_1bit:fa1bit.in0
+A[1] => FA_2bit:fa2bit.A[0]
+A[2] => FA_2bit:fa2bit.A[1]
+B[0] => FA_1bit:fa1bit.in1
+B[1] => FA_2bit:fa2bit.B[0]
+B[2] => FA_2bit:fa2bit.B[1]
+cin => FA_1bit:fa1bit.cin
+sum[0] <= FA_1bit:fa1bit.sum
+sum[1] <= FA_2bit:fa2bit.sum[0]
+sum[2] <= FA_2bit:fa2bit.sum[1]
+cout <= FA_2bit:fa2bit.cout
+
+
+|PC_32|FA_3bit:FA3_2|FA_1bit:fa1bit
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_3bit:FA3_2|FA_2bit:fa2bit
+A[0] => FA_1bit:fa1bit_0.in0
+A[1] => FA_1bit:fa1bit_1.in0
+B[0] => FA_1bit:fa1bit_0.in1
+B[1] => FA_1bit:fa1bit_1.in1
+cin => FA_1bit:fa1bit_0.cin
+sum[0] <= FA_1bit:fa1bit_0.sum
+sum[1] <= FA_1bit:fa1bit_1.sum
+cout <= FA_1bit:fa1bit_1.cout
+
+
+|PC_32|FA_3bit:FA3_2|FA_2bit:fa2bit|FA_1bit:fa1bit_0
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_3bit:FA3_2|FA_2bit:fa2bit|FA_1bit:fa1bit_1
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_3bit:FA3_3
+A[0] => FA_1bit:fa1bit.in0
+A[1] => FA_2bit:fa2bit.A[0]
+A[2] => FA_2bit:fa2bit.A[1]
+B[0] => FA_1bit:fa1bit.in1
+B[1] => FA_2bit:fa2bit.B[0]
+B[2] => FA_2bit:fa2bit.B[1]
+cin => FA_1bit:fa1bit.cin
+sum[0] <= FA_1bit:fa1bit.sum
+sum[1] <= FA_2bit:fa2bit.sum[0]
+sum[2] <= FA_2bit:fa2bit.sum[1]
+cout <= FA_2bit:fa2bit.cout
+
+
+|PC_32|FA_3bit:FA3_3|FA_1bit:fa1bit
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_3bit:FA3_3|FA_2bit:fa2bit
+A[0] => FA_1bit:fa1bit_0.in0
+A[1] => FA_1bit:fa1bit_1.in0
+B[0] => FA_1bit:fa1bit_0.in1
+B[1] => FA_1bit:fa1bit_1.in1
+cin => FA_1bit:fa1bit_0.cin
+sum[0] <= FA_1bit:fa1bit_0.sum
+sum[1] <= FA_1bit:fa1bit_1.sum
+cout <= FA_1bit:fa1bit_1.cout
+
+
+|PC_32|FA_3bit:FA3_3|FA_2bit:fa2bit|FA_1bit:fa1bit_0
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_3bit:FA3_3|FA_2bit:fa2bit|FA_1bit:fa1bit_1
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_4bit:FA4_0
+A[0] => FA_2bit:fa1.A[0]
+A[1] => FA_2bit:fa1.A[1]
+A[2] => FA_2bit:fa2.A[0]
+A[3] => FA_2bit:fa2.A[1]
+B[0] => FA_2bit:fa1.B[0]
+B[1] => FA_2bit:fa1.B[1]
+B[2] => FA_2bit:fa2.B[0]
+B[3] => FA_2bit:fa2.B[1]
+cin => FA_2bit:fa1.cin
+sum[0] <= FA_2bit:fa1.sum[0]
+sum[1] <= FA_2bit:fa1.sum[1]
+sum[2] <= FA_2bit:fa2.sum[0]
+sum[3] <= FA_2bit:fa2.sum[1]
+cout <= FA_2bit:fa2.cout
+
+
+|PC_32|FA_4bit:FA4_0|FA_2bit:fa1
+A[0] => FA_1bit:fa1bit_0.in0
+A[1] => FA_1bit:fa1bit_1.in0
+B[0] => FA_1bit:fa1bit_0.in1
+B[1] => FA_1bit:fa1bit_1.in1
+cin => FA_1bit:fa1bit_0.cin
+sum[0] <= FA_1bit:fa1bit_0.sum
+sum[1] <= FA_1bit:fa1bit_1.sum
+cout <= FA_1bit:fa1bit_1.cout
+
+
+|PC_32|FA_4bit:FA4_0|FA_2bit:fa1|FA_1bit:fa1bit_0
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_4bit:FA4_0|FA_2bit:fa1|FA_1bit:fa1bit_1
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_4bit:FA4_0|FA_2bit:fa2
+A[0] => FA_1bit:fa1bit_0.in0
+A[1] => FA_1bit:fa1bit_1.in0
+B[0] => FA_1bit:fa1bit_0.in1
+B[1] => FA_1bit:fa1bit_1.in1
+cin => FA_1bit:fa1bit_0.cin
+sum[0] <= FA_1bit:fa1bit_0.sum
+sum[1] <= FA_1bit:fa1bit_1.sum
+cout <= FA_1bit:fa1bit_1.cout
+
+
+|PC_32|FA_4bit:FA4_0|FA_2bit:fa2|FA_1bit:fa1bit_0
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_4bit:FA4_0|FA_2bit:fa2|FA_1bit:fa1bit_1
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_4bit:FA4_1
+A[0] => FA_2bit:fa1.A[0]
+A[1] => FA_2bit:fa1.A[1]
+A[2] => FA_2bit:fa2.A[0]
+A[3] => FA_2bit:fa2.A[1]
+B[0] => FA_2bit:fa1.B[0]
+B[1] => FA_2bit:fa1.B[1]
+B[2] => FA_2bit:fa2.B[0]
+B[3] => FA_2bit:fa2.B[1]
+cin => FA_2bit:fa1.cin
+sum[0] <= FA_2bit:fa1.sum[0]
+sum[1] <= FA_2bit:fa1.sum[1]
+sum[2] <= FA_2bit:fa2.sum[0]
+sum[3] <= FA_2bit:fa2.sum[1]
+cout <= FA_2bit:fa2.cout
+
+
+|PC_32|FA_4bit:FA4_1|FA_2bit:fa1
+A[0] => FA_1bit:fa1bit_0.in0
+A[1] => FA_1bit:fa1bit_1.in0
+B[0] => FA_1bit:fa1bit_0.in1
+B[1] => FA_1bit:fa1bit_1.in1
+cin => FA_1bit:fa1bit_0.cin
+sum[0] <= FA_1bit:fa1bit_0.sum
+sum[1] <= FA_1bit:fa1bit_1.sum
+cout <= FA_1bit:fa1bit_1.cout
+
+
+|PC_32|FA_4bit:FA4_1|FA_2bit:fa1|FA_1bit:fa1bit_0
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_4bit:FA4_1|FA_2bit:fa1|FA_1bit:fa1bit_1
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_4bit:FA4_1|FA_2bit:fa2
+A[0] => FA_1bit:fa1bit_0.in0
+A[1] => FA_1bit:fa1bit_1.in0
+B[0] => FA_1bit:fa1bit_0.in1
+B[1] => FA_1bit:fa1bit_1.in1
+cin => FA_1bit:fa1bit_0.cin
+sum[0] <= FA_1bit:fa1bit_0.sum
+sum[1] <= FA_1bit:fa1bit_1.sum
+cout <= FA_1bit:fa1bit_1.cout
+
+
+|PC_32|FA_4bit:FA4_1|FA_2bit:fa2|FA_1bit:fa1bit_0
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_4bit:FA4_1|FA_2bit:fa2|FA_1bit:fa1bit_1
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_5bit:FA5
+A[0] => FA_2bit:fa1.A[0]
+A[1] => FA_2bit:fa1.A[1]
+A[2] => FA_3bit:fa2.A[0]
+A[3] => FA_3bit:fa2.A[1]
+A[4] => FA_3bit:fa2.A[2]
+B[0] => FA_2bit:fa1.B[0]
+B[1] => FA_2bit:fa1.B[1]
+B[2] => FA_3bit:fa2.B[0]
+B[3] => FA_3bit:fa2.B[1]
+B[4] => FA_3bit:fa2.B[2]
+cin => FA_2bit:fa1.cin
+sum[0] <= FA_2bit:fa1.sum[0]
+sum[1] <= FA_2bit:fa1.sum[1]
+sum[2] <= FA_3bit:fa2.sum[0]
+sum[3] <= FA_3bit:fa2.sum[1]
+sum[4] <= FA_3bit:fa2.sum[2]
+cout <= FA_3bit:fa2.cout
+
+
+|PC_32|FA_5bit:FA5|FA_2bit:fa1
+A[0] => FA_1bit:fa1bit_0.in0
+A[1] => FA_1bit:fa1bit_1.in0
+B[0] => FA_1bit:fa1bit_0.in1
+B[1] => FA_1bit:fa1bit_1.in1
+cin => FA_1bit:fa1bit_0.cin
+sum[0] <= FA_1bit:fa1bit_0.sum
+sum[1] <= FA_1bit:fa1bit_1.sum
+cout <= FA_1bit:fa1bit_1.cout
+
+
+|PC_32|FA_5bit:FA5|FA_2bit:fa1|FA_1bit:fa1bit_0
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_5bit:FA5|FA_2bit:fa1|FA_1bit:fa1bit_1
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_5bit:FA5|FA_3bit:fa2
+A[0] => FA_1bit:fa1bit.in0
+A[1] => FA_2bit:fa2bit.A[0]
+A[2] => FA_2bit:fa2bit.A[1]
+B[0] => FA_1bit:fa1bit.in1
+B[1] => FA_2bit:fa2bit.B[0]
+B[2] => FA_2bit:fa2bit.B[1]
+cin => FA_1bit:fa1bit.cin
+sum[0] <= FA_1bit:fa1bit.sum
+sum[1] <= FA_2bit:fa2bit.sum[0]
+sum[2] <= FA_2bit:fa2bit.sum[1]
+cout <= FA_2bit:fa2bit.cout
+
+
+|PC_32|FA_5bit:FA5|FA_3bit:fa2|FA_1bit:fa1bit
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_5bit:FA5|FA_3bit:fa2|FA_2bit:fa2bit
+A[0] => FA_1bit:fa1bit_0.in0
+A[1] => FA_1bit:fa1bit_1.in0
+B[0] => FA_1bit:fa1bit_0.in1
+B[1] => FA_1bit:fa1bit_1.in1
+cin => FA_1bit:fa1bit_0.cin
+sum[0] <= FA_1bit:fa1bit_0.sum
+sum[1] <= FA_1bit:fa1bit_1.sum
+cout <= FA_1bit:fa1bit_1.cout
+
+
+|PC_32|FA_5bit:FA5|FA_3bit:fa2|FA_2bit:fa2bit|FA_1bit:fa1bit_0
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PC_32|FA_5bit:FA5|FA_3bit:fa2|FA_2bit:fa2bit|FA_1bit:fa1bit_1
+in0 => sum.IN0
+in0 => cout.IN0
+in0 => cout.IN0
+in1 => sum.IN1
+in1 => cout.IN1
+in1 => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

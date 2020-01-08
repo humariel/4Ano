@@ -1,0 +1,278 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gabriel/UA/4Ano/ACA/Proj1/HAD_T2G5/simulation/qsim
+Ehad_decoder_parallel
+Z1 w1574021451
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 CX9c^[CNfbzHb3XCH3hoa1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 NZ_cKj>1HW_D7i1UeTO[31
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 6`GHcm:DR>=X_840X1FV;0
+R0
+Z9 8Encoder.vho
+Z10 FEncoder.vho
+l0
+L37
+VA[Q5MDXVTn7JfM0<@7K<81
+!s100 nacIIhnMUX`7FnJN9VBFU1
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1574021455
+!i10b 1
+Z13 !s108 1574021455.000000
+Z14 !s90 -work|work|Encoder.vho|
+Z15 !s107 Encoder.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 20 had_decoder_parallel 0 22 A[Q5MDXVTn7JfM0<@7K<81
+l115
+L45
+V4:>gXGhig9e75?dPN6[n>3
+!s100 0>a@[1mAlRU<ZCib@@CZ=2
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Ehad_decoder_parallel_vhd_vec_tst
+Z18 w1574021447
+R6
+R7
+R0
+Z19 8HAD_DECODER_PARALLEL.vwf.vht
+Z20 FHAD_DECODER_PARALLEL.vwf.vht
+l0
+L32
+V@nW<E9b^eAIjc_J65=jn_1
+!s100 P5_`dY<@Tj[THJ@5iZckU0
+R11
+32
+R12
+!i10b 1
+R13
+Z21 !s90 -work|work|HAD_DECODER_PARALLEL.vwf.vht|
+Z22 !s107 HAD_DECODER_PARALLEL.vwf.vht|
+!i113 1
+R16
+R17
+Ahad_decoder_parallel_arch
+R6
+R7
+Z23 DEx4 work 32 had_decoder_parallel_vhd_vec_tst 0 22 @nW<E9b^eAIjc_J65=jn_1
+l47
+L34
+VMT<>CTIh6QIiGcS?DBgeX2
+!s100 IEHnnVGeb:NOE32f>:?jc1
+R11
+32
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 1
+R16
+R17
+Ehad_encoder_parallel
+Z24 w1573870378
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R0
+R9
+R10
+l0
+L37
+VF8gYA9d:koL43QHdJD4De1
+!s100 68I7S?:[3BXQen4EKW82S1
+R11
+32
+Z25 !s110 1573870382
+!i10b 1
+Z26 !s108 1573870381.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 20 had_encoder_parallel 0 22 F8gYA9d:koL43QHdJD4De1
+l88
+L59
+Vie3fM?U7DFHY3Xh>:PPF42
+!s100 >aM:HoMV^6kJ1W;X>cnnT2
+R11
+32
+R25
+!i10b 1
+R26
+R14
+R15
+!i113 1
+R16
+R17
+Ehad_encoder_parallel_vhd_vec_tst
+Z27 w1573870376
+R6
+R7
+R0
+Z28 8HAD_ENCODER_PARALLEL.vwf.vht
+Z29 FHAD_ENCODER_PARALLEL.vwf.vht
+l0
+L32
+VK7OX<MC`0DkYDT98R@SD_0
+!s100 4B9a0`O9o[`^f4i:XYkTb2
+R11
+32
+R25
+!i10b 1
+Z30 !s108 1573870382.000000
+Z31 !s90 -work|work|HAD_ENCODER_PARALLEL.vwf.vht|
+Z32 !s107 HAD_ENCODER_PARALLEL.vwf.vht|
+!i113 1
+R16
+R17
+Ahad_encoder_parallel_arch
+R6
+R7
+DEx4 work 32 had_encoder_parallel_vhd_vec_tst 0 22 K7OX<MC`0DkYDT98R@SD_0
+l45
+L34
+V;ZTF;jkFkGfE;DEh?Znkg3
+!s100 E1YR1OSeg9INV?IE4cZX03
+R11
+32
+R25
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R16
+R17
+Ehad_encoder_serie
+Z33 w1573871254
+R3
+R5
+R8
+R2
+Z34 DPx6 altera 11 dffeas_pack 0 22 dbC[kT^o8P[ggjb1if:RT1
+R4
+R6
+R7
+Z35 DPx6 altera 28 altera_primitives_components 0 22 PoC3B_7fao?IDTS[NR5Q62
+R0
+R9
+R10
+l0
+L39
+VaoDN[H=niPRoJR1og:Bhg1
+!s100 :3YhI1a=mX671Ia9:54;@0
+R11
+32
+Z36 !s110 1573871258
+!i10b 1
+Z37 !s108 1573871257.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R3
+R5
+R8
+R2
+R34
+R4
+R6
+R7
+R35
+DEx4 work 17 had_encoder_serie 0 22 aoDN[H=niPRoJR1og:Bhg1
+l153
+L64
+Vi[]6C:2MT^5K_1LMVXJ]n2
+!s100 bT`l0SEPChYZoGfm?fS3h0
+R11
+32
+R36
+!i10b 1
+R37
+R14
+R15
+!i113 1
+R16
+R17
+Ehad_encoder_serie_vhd_vec_tst
+Z38 w1573871251
+R6
+R7
+R0
+Z39 8HAD_ENCODER_SERIE.vwf.vht
+Z40 FHAD_ENCODER_SERIE.vwf.vht
+l0
+L32
+V0ZJImB<hhHJVfRXeM0IQl0
+!s100 cm:1Q]MIoOGNKC5X3_?bj0
+R11
+32
+R36
+!i10b 1
+Z41 !s108 1573871258.000000
+Z42 !s90 -work|work|HAD_ENCODER_SERIE.vwf.vht|
+Z43 !s107 HAD_ENCODER_SERIE.vwf.vht|
+!i113 1
+R16
+R17
+Ahad_encoder_serie_arch
+R6
+R7
+DEx4 work 29 had_encoder_serie_vhd_vec_tst 0 22 0ZJImB<hhHJVfRXeM0IQl0
+l51
+L34
+VoZWnZJj9b4]_Jal0hIMJC0
+!s100 Qf0J]6N3?3YSlFQX<S3ja0
+R11
+32
+R36
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R16
+R17

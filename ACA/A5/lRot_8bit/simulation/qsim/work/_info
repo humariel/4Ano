@@ -1,0 +1,186 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gabriel/UA/4Ano/ACA/A5/lRot_8bit/simulation/qsim
+Elrot_8bit
+Z1 w1571675346
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 CX9c^[CNfbzHb3XCH3hoa1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 NZ_cKj>1HW_D7i1UeTO[31
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 6`GHcm:DR>=X_840X1FV;0
+R0
+Z9 8lRot_8bit.vho
+Z10 FlRot_8bit.vho
+l0
+L37
+V8T]d3c7Pob?V0[W43N?O`3
+!s100 <Ch;0M5CEL9<Kj4B807YG0
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1571675346
+!i10b 1
+Z13 !s108 1571675346.000000
+Z14 !s90 -work|work|lRot_8bit.vho|
+Z15 !s107 lRot_8bit.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 9 lrot_8bit 0 22 8T]d3c7Pob?V0[W43N?O`3
+l128
+L67
+V5ZY1V5UEEmJ7nLO<T]6A[1
+!s100 MCSL]kc]gQ;a:bTB7gdHZ3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Elrot_8bit_lr
+Z18 w1571684103
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R0
+R9
+R10
+l0
+L37
+Vj63Wd`<7WPR6[7UlOVYAF1
+!s100 4GGm0GL4D]FmH6kL]OmQ=0
+R11
+32
+Z19 !s110 1571684104
+!i10b 1
+Z20 !s108 1571684104.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 12 lrot_8bit_lr 0 22 j63Wd`<7WPR6[7UlOVYAF1
+l137
+L69
+V627R<`l4?4PjcjkWDm>dh2
+!s100 F2D?RReD`ldTmI>OUR3C61
+R11
+32
+R19
+!i10b 1
+R20
+R14
+R15
+!i113 1
+R16
+R17
+Elrot_8bit_lr_vhd_vec_tst
+Z21 w1571684101
+R6
+R7
+R0
+Z22 8Waveform.vwf.vht
+Z23 FWaveform.vwf.vht
+l0
+L32
+V?V_`5GCMT=aRz^<46he=f3
+!s100 `FC_V<z7NKW_H@2];Q6^z0
+R11
+32
+R19
+!i10b 1
+R20
+Z24 !s90 -work|work|Waveform.vwf.vht|
+Z25 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Alrot_8bit_lr_arch
+R6
+R7
+Z26 DEx4 work 24 lrot_8bit_lr_vhd_vec_tst 0 22 ?V_`5GCMT=aRz^<46he=f3
+l49
+L34
+V>OGVKAUJ<H1SbzIYKL?8b1
+!s100 PJQGzY>0T@Hc^ID4NXLoM3
+R11
+32
+R19
+!i10b 1
+R20
+R24
+R25
+!i113 1
+R16
+R17
+Elrot_8bit_vhd_vec_tst
+Z27 w1571675344
+R6
+R7
+R0
+Z28 8lRot_8bit.vwf.vht
+Z29 FlRot_8bit.vwf.vht
+l0
+L32
+VJbH:zo8b;k0`675ALkmOO2
+!s100 1Z7@zDNie?9Y2cZ]F;fWZ3
+R11
+32
+Z30 !s110 1571675347
+!i10b 1
+R13
+Z31 !s90 -work|work|lRot_8bit.vwf.vht|
+Z32 !s107 lRot_8bit.vwf.vht|
+!i113 1
+R16
+R17
+Alrot_8bit_arch
+R6
+R7
+DEx4 work 21 lrot_8bit_vhd_vec_tst 0 22 JbH:zo8b;k0`675ALkmOO2
+l47
+L34
+V1fPQfKGHML2HDb>7BC8LT2
+!s100 lLH;ZDA<hhf2g_lXil[lF1
+R11
+32
+R30
+!i10b 1
+R13
+R31
+R32
+!i113 1
+R16
+R17
