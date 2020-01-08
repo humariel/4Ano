@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="cursos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="curso" type="curso">					
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+<xs:simpleType name="tipoGrau">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="Licenciatura" />
+		<xs:enumeration value="Mestrado" />
+		<xs:enumeration value="Mestrado Integrado" />
+		<xs:enumeration value="Doutoramento" />
+		<xs:enumeration value="Curso de Especialização Tecnológica" />
+		<xs:enumeration value="Licenciatura Bi-etápica" />
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="curso">
+	<xs:sequence>
+		<xs:element name="guid" type="xs:integer" />
+		<xs:element name="codigo" type="xs:string" />
+		<xs:element name="nome" type="xs:string" />
+		<xs:element name="grau" type="tipoGrau" />
+		<xs:element name="bolonha">
+			<xs:simpleType>
+				<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0" />
+				<xs:maxInclusive value="1" />
+				</xs:restriction>
+			</xs:simpleType>
+			</xs:element>
+		<xs:element name="vagas">
+			<xs:simpleType>
+				<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0" />
+			</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+		<xs:element name="template">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+			<xs:pattern value="[0-9]" />
+			</xs:restriction>
+		</xs:simpleType>
+		</xs:element>
+	</xs:sequence>
+	<xs:attribute name="guid" type="xs:integer" />
+</xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="679052c2-b4ae-4a46-a33c-f199c860db12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../ACA/A3_A4/DLX/apps/dlx_apps/ex_4_interlocking.s" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ACA/A3_A4/DLX/apps/dlx_apps/ex_4_interlocking.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ARA/Praticas/BGP__P-BGP(Part2)/BGP__P-BGP(Part2).gns3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ARA/Praticas/BGP__P-BGP(Part2)/BGP__P-BGP(Part2).gns3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ARA/Praticas/BGP__P-BGP(Part2)/project-files/dynamips/347697aa-0d2f-4278-a16a-e3337167a2cb/configs/i1_startup-config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ARA/Praticas/BGP__P-BGP(Part2)/project-files/dynamips/347697aa-0d2f-4278-a16a-e3337167a2cb/configs/i1_startup-config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ARA/Praticas/MP-BGP(Part1B)/MP-BGP(Part1B).gns3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ARA/Praticas/MP-BGP(Part1B)/MP-BGP(Part1B).gns3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ARA/Praticas/MP-BGP(Part1B)/project-files/dynamips/3b07ae26-21fe-476e-a5e5-1299946f1bc8/configs/i2_startup-config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ARA/Praticas/MP-BGP(Part1B)/project-files/dynamips/3b07ae26-21fe-476e-a5e5-1299946f1bc8/configs/i2_startup-config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ARA/Praticas/MP-BGP(Part1B)/project-files/dynamips/463abb79-3320-4149-a9fd-ab4cd7b50118/configs/i1_startup-config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ARA/Praticas/MP-BGP(Part1B)/project-files/dynamips/463abb79-3320-4149-a9fd-ab4cd7b50118/configs/i1_startup-config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ARA/Praticas/MP-BGP(Part1B)/project-files/dynamips/65bdfcfb-907d-47d7-bcf1-617b67f0f93a/configs/i3_startup-config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ARA/Praticas/MP-BGP(Part1B)/project-files/dynamips/65bdfcfb-907d-47d7-bcf1-617b67f0f93a/configs/i3_startup-config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ARA/Praticas/MP-BGP(Part1B)/project-files/dynamips/f9691ed2-3a07-439a-8cb0-0167ca9a4f73/configs/i4_startup-config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ARA/Praticas/MP-BGP(Part1B)/project-files/dynamips/f9691ed2-3a07-439a-8cb0-0167ca9a4f73/configs/i4_startup-config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CV/A3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CV/WebGL_Aula_04.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Seguranca/A4/a" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Seguranca/A4/a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Seguranca/A4/ex1_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Seguranca/A4/ex1_1.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1TvA2VR32hhMPFEXco6yXu8966a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../A10/untitled1" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="graphs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="untitled1" type="Python.DjangoServer" factoryName="Django server">
+      <module name="graphs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="679052c2-b4ae-4a46-a33c-f199c860db12" name="Default Changelist" comment="" />
+      <created>1574329989067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574329989067</updated>
+      <workItem from="1574330032096" duration="501000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

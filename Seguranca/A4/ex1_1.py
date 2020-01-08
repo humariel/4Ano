@@ -2,7 +2,7 @@ import sys
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.backends import default_backend
-# The PBKDF2 generator of Python receives as inpout the number of byes to generate ,
+# The PBKDF2 generator of Python receives as input the number of byes to generate ,
 # instead of bits
 
 salt = b'\ x00 '

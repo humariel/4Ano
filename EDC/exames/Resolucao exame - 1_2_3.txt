@@ -1,0 +1,32 @@
+
+1 - Um SGBD permite uma distanciação na forma de organização da informação entre o utilizador e a aplicação 
+usada, sendo que este utilizador e o SGBD têm de garantir a correcção dos dados inseridos com base nos valores 
+pretendidos e na estrutura existente. 
+    A utilização de uma SGBD pode ter vantagens de uso como a corecção de dados, o acesso total e sua modificação
+(dependendo da interface existente) e interoperabilidade entre vários sistemas. A desvantagem principal é
+que não é um método de organização e armazenamento de informação tão global que possa ser utilizado por vários
+end-points. 
+    No caso de XML a organização da informação e o seu tratamento é mais fácil e corrente para todos os sistemas 
+existentes pois é uma linguagem actual e que foi desenvolvida para permitir o acesso à informação mais fácil,
+por exemplo em web-browsers. As operações sobre dados guardados em estruturas como o XML são muito mais rápidas
+pois estamos a falar de ficheiros e não, bancos de dados com elevados sistemas de gestão.
+
+2 - Data-Centric XML é uma estrutura de registo. Possui funções similares a uma base de dados e um conjunto de 
+campos pre-definidos e registos que têm de coincidir com a estrutura. Os Schemas de metadados definem um 
+conjunto de requisitos expressos como elementos de metadados que são importantes para registar o tipo de 
+recurso para o qual o standard é para ser usado. São puros metadados e não documentos, recursos mas um 
+substituto para aquele documento/recurso criado com o propósito de descoberta ou acesso. Padrões como 
+Dublin Core, MODS representam esta estrutura Data-Centric XML.
+    Document-Centric XML é uma estrutura que possui o documento(texto, algo pre-existente com a sua própria
+estrutura). Esquemas XML ou DTDs para Document-Centric XML podem ser pensados mais como linguagens de marcação
+(markup languages) invés de formatos de metadados. Assim eles fornecem meios para indicar explicitamente quando
+partes existentes de um determinado documento têm a estrutura ou o significado: por exemplo, quando uma secção 
+de um documentos representa um parágrafo, uma estrofe de um poema, um titulo, um nome ou uma localização geográfica.
+Document-Centric XML não possuem uma estrutura previsivel, ao contrário, elementos que representam estrutura do 
+documento e os recursos aparecem como precisos num dado documento. Standards de codificação como TEI e EAD usam
+Document-Centric XML.
+
+3 - Em XML entidades são blocos que possuem informações referentes a um tipo de dados e devem ser usadas quando 
+se pretende especificar vários valores de vários tipos para uma outra dada entidade. Assim uma entidade pode 
+conter outras entidades no seu interior e todas elas diferentes entre si.
+Atributos correspodem a valores que aparecem na declaração inicial da entidade que qualificam e que estão associados.

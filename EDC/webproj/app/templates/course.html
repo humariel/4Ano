@@ -1,0 +1,22 @@
+{% extends "layout_xml.html" %}
+
+{% block content %}
+    <div class="courses">
+        <span class="courses--title">
+            {{course}} Selecionado
+        </span>
+        <div class="courses--option {% if valid %}valid{% else %}invalid{% endif %}">
+            O ficheiro {% if valid %} é {% else %} não é {% endif %} Válido!
+        </div>
+        {% if valid %}
+            <div class="courses--content">
+                {% autoescape off %}
+                    {{ content }}
+                {% endautoescape %}
+            </div>
+        {% endif %}
+        <a class="courses--option hover" href="/courses">
+            VOLTAR
+        </a>
+    </div>
+{% endblock %}

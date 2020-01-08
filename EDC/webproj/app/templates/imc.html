@@ -1,0 +1,11 @@
+{% extends "layout_xml.html" %}
+
+{% block content %}
+    <form action="." method="post" class="imc">
+        <input placeholder="Peso em Kg" id="peso" type="number">
+        <input placeholder="Altura em cm" id="altura" type="number">
+        <div id="imc_value" class="value">
+            Introduza os dados
+        </div>
+    </form>
+{% endblock %}

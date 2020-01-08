@@ -1,0 +1,31 @@
+ <?xml version='1.0' encoding='UTF-8' ?>
+ 
+ <cursos>
+	<curso guid="001" >
+		<guid>001</guid>
+		<codigo>10</codigo>
+		<nome>MIECT</nome>
+		<grau>Mestrado Integrado</grau>
+		<bolonha>1</bolonha>
+		<vagas>70</vagas>
+		<template>5</template>	
+	</curso>
+	<curso guid="002" >
+		<guid>002</guid>
+		<codigo>11</codigo>
+		<nome>MIEET</nome>
+		<grau>Mestrado Integrado</grau>
+		<bolonha>1</bolonha>
+		<vagas>115</vagas>
+		<template>6</template>	
+	</curso>
+	<curso guid="003" >
+		<guid>003</guid>
+		<codigo>12</codigo>
+		<nome>TSI</nome>
+		<grau>Licenciatura</grau>
+		<bolonha>0</bolonha>
+		<vagas>30</vagas>
+		<template>7</template>	
+	</curso>
+ </cursos>

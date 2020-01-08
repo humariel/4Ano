@@ -1,0 +1,24 @@
+2 - No elemento bolonha apenas são válidos valores inteiros pois é aplicada uma
+    restrição de dominio de valores sendo que ou é 0 ou 1.
+
+3 - Para que se aceite valores entre 10 e 20 inclusivé eliminam-se as restrições que
+    existe de minInclusive e maxInclusive e aplica-se: <xs:pattern value="[10-20]"/>
+    Assim restringi-se o valor do elemento a um valor do intervalo especificado.
+
+5 - O documento apresentado não é válido para o Schema A pois várias falhas são de reportar:
+
+	-> No curso com guid 96 e no com 14 não existe o valor interno ao curso com o valor do guid,
+	   isto é, não estão a respeitar a sequência que começa por <xs:element name="guid" type="xs:integer"/>.
+	  
+	-> Nesses mesmos cursos, a ordem de elementos dentro do curso não é respeitada.
+  	   Devia ser guid, código, nome, grau, bolonha,vagas e template.
+	
+	-> O código do curso 96 não condiz com o formato dos outros códigos dos outros cursos: AAAA-BBBB
+	   o que leva a mais um detalhe inválido.
+
+	-> O campo bolonha é um campo inteiro em que aceita só 0 ou 1 e não "sim" ou "não" como
+	   todos os valores presentes nos cursos dados.
+	
+	-> Por fim denota-se a ausência do elemento template e do seu valor de todos os cursos.
+
+6 - /cursos/curso[vagas>0]

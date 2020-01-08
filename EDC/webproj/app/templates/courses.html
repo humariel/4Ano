@@ -1,0 +1,14 @@
+{% extends "layout_xml.html" %}
+
+{% block content %}
+    <div class="courses">
+        <span class="courses--title">
+            Selecione um Ficheiro XML
+        </span>
+        {% for course in courses %}
+            <a class="courses--option hover" href="/courses/{{course.name}}">
+                {{course.display}}
+            </a>
+        {% endfor %}
+    </div>
+{% endblock %}

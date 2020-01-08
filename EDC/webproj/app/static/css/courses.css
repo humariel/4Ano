@@ -1,0 +1,77 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.courses {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.courses--option {
+    transition: background-color .2s ease;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+    font-size: 1.6rem;
+    color: white;
+
+    background-color: rgba(0,0,255, .8);
+    border-radius: .25rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.courses--option.valid {
+    background-color: rgba(0,200,0, .8);
+}
+.courses--option.invalid {
+    background-color: rgba(255,0,0, .8);
+}
+
+.courses--option.hover:hover {
+    cursor: pointer;
+    background-color: darkblue;
+}
+.courses--option.hover:hover:active {
+    background-color: darkorange;
+}
+
+.courses--title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.courses--content {
+    width: 90%;
+    overflow: auto;
+    margin: 1rem 0;
+    padding: .75rem 1rem;
+    background-color: rgba(165, 185, 214, 0.03);
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.course--title {
+    font-size:1.4rem;
+    font-weight: bold;
+    color: #0000a1;
+}
+.course--title:not(:first-of-type) {
+    margin-top: .5rem;
+}
+.course--subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

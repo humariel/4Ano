@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="cursos/curso">
+	<xsl:for-each select="curso">
+		<xsl:sort order="ascending" select="nome"/>
+		<xsl:attribute name="guid"/>
+			<xsl:value-of select="guid"/>
+		<xsl:attribute name="codigo"/>
+			<xsl:value-of select="codigo"/>
+		<xsl:attribute name="nome"/>
+			<xsl:value-of select="nome"/>
+		<xsl:attribute name="grau"/>
+			<xsl:value-of select="grau"/>
+		<xsl:attribute name="bolonha"/>
+			<xsl:value-of select="bolonha"/>
+		<xsl:attribute name="vagas"/>
+			<xsl:value-of select="vagas"/>
+	</xsl:for-each>
+</xsl:template>
+
+</xsl:stylesheet>
