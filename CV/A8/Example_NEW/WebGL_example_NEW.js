@@ -282,7 +282,9 @@ function drawScene() {
 
 		// NEW --- The viewer is on (0,0,0)
 		
-		pos_Viewer[0] = pos_Viewer[1] = pos_Viewer[2] = 0.0;
+		pos_Viewer[0] = 0.0;
+		pos_Viewer[1] = 5.0;
+		pos_Viewer[2] = 0;
 		
 		pos_Viewer[3] = 1.0;  
 		

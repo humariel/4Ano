@@ -1,0 +1,3 @@
+/home/gabriel/UA/4Ano/CV/A1_CV/CMakeFiles/rebuild_cache.dir
+/home/gabriel/UA/4Ano/CV/A1_CV/CMakeFiles/OpenCV_ex_04.dir
+/home/gabriel/UA/4Ano/CV/A1_CV/CMakeFiles/edit_cache.dir
