@@ -1,0 +1,21 @@
+2020-04-02T14:08:13.10095600255-14:08:13 **** Incremental Build of configuration Debug for project CountDownTimerApp ****
+000-make all 
+000-Building file: ../src/helloworld.c
+000-Invoking: MicroBlaze gcc compiler
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-Finished building: ../src/helloworld.c
+000- 
+000-Building target: CountDownTimerApp.elf
+000-Invoking: MicroBlaze gcc linker
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "CountDownTimerApp.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-Finished building target: CountDownTimerApp.elf
+000- 
+000-Invoking: MicroBlaze Print Size
+000-mb-size CountDownTimerApp.elf  |tee "CountDownTimerApp.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-   6136	    364	   3116	   9616	   2590	CountDownTimerApp.elf
+000-Finished building: CountDownTimerApp.elf.size
+000- 
+00255-
+14:08:13 Build Finished (took 526ms)
+

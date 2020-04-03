@@ -1,0 +1,2156 @@
+!SESSION 2020-04-02 10:33:54.404 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-04-02 10:33:55.702
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.ui 4 4 2020-04-02 10:33:57.982
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
+
+!ENTRY org.eclipse.ui 4 4 2020-04-02 10:33:59.913
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2020-04-02 10:33:59.915
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:34:02.379
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:34:02.379
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:34:02.379
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-12
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:34:02.382
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:34:02.383
+!MESSAGE XSCT Command: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:34:02.448
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:34:02.448
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-12
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:34:02.449
+!MESSAGE XSCT command with result: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:34:02.449
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:34:02.450
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2019.2/data]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY org.eclipse.jface 4 0 2020-04-02 10:34:10.355
+!MESSAGE The command ("com.xilinx.ide.application.ui.perspectve") is undefined
+!STACK 0
+java.lang.Exception
+	at org.eclipse.jface.action.ExternalActionManager$CommandCallback.isActive(ExternalActionManager.java:364)
+	at org.eclipse.jface.action.ActionContributionItem.isCommandActive(ActionContributionItem.java:626)
+	at org.eclipse.jface.action.ActionContributionItem.isVisible(ActionContributionItem.java:682)
+	at org.eclipse.jface.action.MenuManager.isChildVisible(MenuManager.java:982)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:752)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:472)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1396)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1375)
+	at org.eclipse.swt.widgets.Menu.gtk_show(Menu.java:779)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1935)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5898)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4084)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1383)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1626)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4516)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY org.eclipse.jface 4 0 2020-04-02 10:34:10.356
+!MESSAGE The command ("com.xilinx.sdk.performance.ui.PerformancePerspective") is undefined
+!STACK 0
+java.lang.Exception
+	at org.eclipse.jface.action.ExternalActionManager$CommandCallback.isActive(ExternalActionManager.java:364)
+	at org.eclipse.jface.action.ActionContributionItem.isCommandActive(ActionContributionItem.java:626)
+	at org.eclipse.jface.action.ActionContributionItem.isVisible(ActionContributionItem.java:682)
+	at org.eclipse.jface.action.MenuManager.isChildVisible(MenuManager.java:982)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:752)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:472)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1396)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1375)
+	at org.eclipse.swt.widgets.Menu.gtk_show(Menu.java:779)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1935)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5898)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4084)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1383)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1626)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4516)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+!SESSION 2020-04-02 10:40:24.513 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 4 567 2020-04-02 10:40:39.745
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2020-04-02 10:40:39.745
+!MESSAGE Could not read metadata for 'RemoteSystemsTempFiles'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/RemoteSystemsTempFiles)[567]: java.lang.Exception: The project description file (.project) for 'RemoteSystemsTempFiles' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:39)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:35)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:903)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:886)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:866)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:718)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1558)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2448)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2205)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:486)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.base/java.lang.Class.getConstructor0(Unknown Source)
+	at java.base/java.lang.Class.newInstance(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:716)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:470)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:609)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:177)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:931)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:60)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:48)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:269)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:192)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:87)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:592)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:358)
+	at com.xilinx.sdk.utils.DynamicVariableHelper.getResolvedValue(DynamicVariableHelper.java:53)
+	at com.xilinx.sdk.utils.XStringUtils.getResolvedValue(XStringUtils.java:281)
+	at com.xilinx.sdk.utils.ToolAnalyticsHelper.computeAnalyticsFilePath(ToolAnalyticsHelper.java:105)
+	at com.xilinx.sdk.utils.ToolAnalyticsHelper.getAnalyticsFilePath(ToolAnalyticsHelper.java:95)
+	at com.xilinx.sdk.utils.ToolAnalyticsHelper.<init>(ToolAnalyticsHelper.java:33)
+	at com.xilinx.sdk.utils.ToolAnalyticsHelper.<clinit>(ToolAnalyticsHelper.java:26)
+	at com.xilinx.ide.application.ui.Application.checkInstanceLocation(Application.java:217)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:72)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2020-04-02 10:40:39.746
+!MESSAGE The project description file (.project) for 'RemoteSystemsTempFiles' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'RemoteSystemsTempFiles' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:39)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:35)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:903)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:886)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:866)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:718)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1558)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2448)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2205)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:486)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.base/java.lang.Class.getConstructor0(Unknown Source)
+	at java.base/java.lang.Class.newInstance(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:716)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:470)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:609)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:177)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:931)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:60)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:48)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:269)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:192)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:87)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:592)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:358)
+	at com.xilinx.sdk.utils.DynamicVariableHelper.getResolvedValue(DynamicVariableHelper.java:53)
+	at com.xilinx.sdk.utils.XStringUtils.getResolvedValue(XStringUtils.java:281)
+	at com.xilinx.sdk.utils.ToolAnalyticsHelper.computeAnalyticsFilePath(ToolAnalyticsHelper.java:105)
+	at com.xilinx.sdk.utils.ToolAnalyticsHelper.getAnalyticsFilePath(ToolAnalyticsHelper.java:95)
+	at com.xilinx.sdk.utils.ToolAnalyticsHelper.<init>(ToolAnalyticsHelper.java:33)
+	at com.xilinx.sdk.utils.ToolAnalyticsHelper.<clinit>(ToolAnalyticsHelper.java:26)
+	at com.xilinx.ide.application.ui.Application.checkInstanceLocation(Application.java:217)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:72)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-04-02 10:40:39.842
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.ui 4 4 2020-04-02 10:40:42.864
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2020-04-02 10:40:42.867
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:40:46.610
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:40:46.610
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:40:46.611
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:40:46.613
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:40:46.676
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:40:46.676
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:40:46.677
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:40:46.677
+!MESSAGE XSCT Command: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:40:46.678
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2019.2/data]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:40:46.678
+!MESSAGE XSCT command with result: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Result: [null, ]. Thread: Thread-17
+
+!ENTRY org.eclipse.core.resources 4 2 2020-04-02 10:40:47.201
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.internal.core.DeltaProcessor.checkProjectsBeingAddedOrRemoved(DeltaProcessor.java:384)
+	at org.eclipse.dltk.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:1923)
+	at org.eclipse.dltk.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:511)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:297)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:287)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:263)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:371)
+	at org.eclipse.core.internal.resources.Resource.broadcastPreDeleteEvent(Resource.java:1823)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:734)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:325)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.createRemoteEditProject(SystemRemoteEditManager.java:343)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.getRemoteEditProject(SystemRemoteEditManager.java:284)
+	at org.eclipse.rse.internal.files.ui.Activator$InitRemoteEditJob.run(Activator.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 10:41:34.325
+!MESSAGE Opening file dialog using preferences. Current path: /tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:49.608
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:49.678
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:49.708
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:49.713
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa], Result: [null, {"axi_gpio_buttons": {"hier_name": "axi_gpio_buttons",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_display": {"hier_name": "axi_gpio_display",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_leds": {"hier_name": "axi_gpio_leds",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_switches": {"hier_name": "axi_gpio_switches",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"fit_timer_0": {"hier_name": "fit_timer_0",
+"type": "fit_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:49.716
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:49.720
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_4": {"name": "freertos10_xilinx",
+"version": "1.4",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_4",
+},
+"standalone_v7_1": {"name": "standalone",
+"version": "7.1",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/bsp/standalone_v7_1",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:49.727
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:49.729
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Fri Mar 27 00:31:22 2020",
+"vivado_version": "2019.2",
+"part": "xc7a100tcsg324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:51.604
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:51.632
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "freertos10_xilinx",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"versal_plm": {"userdefname": "versal PLM",
+"description": "Platform Loader and Manager for versal.",
+"supp_proc": "psu_pmc psv_pmc",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/versal_plm",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"xilkernel_thread_demo": {"userdefname": "Xilkernel POSIX Threads Demo",
+"description": "This Xilkernel based application provides a simple example of how to create multiple POSIX threads and synchronize with them when they are complete. This example creates an initial master thread. The master thread creates 4 worker threads that go off to compute parts of a sum and return the partial sum as the result. The master thread accumulates the partial sums and prints the result. This example can serve as your starting point for your end application thread structure.",
+"supp_proc": "microblaze",
+"supp_os": "xilkernel",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/xilkernel_thread_demo",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "",
+"supp_os": "",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5 psv_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psv_cortexa72 psv_cortexr5",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze psv_cortexa72 psv_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"versal_psmfw": {"userdefname": "versal PSM Firmware",
+"description": "Processing System Management Unit Firmware for versal.",
+"supp_proc": "psu_psm psv_psm",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/versal_psmfw",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family and serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72",
+"supp_os": "standalone xilkernel",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"me_empty_app": {"userdefname": "ME Empty Application",
+"description": "Empty ME Application Project",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/me_empty_app",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+"bsp_constraints": "false",
+},
+"async_rtp_control_iterative": {"userdefname": "async_rtp_control_iterative",
+"description": "A graph to demonstrate simple use of asynchronous rtp update run with test iteration",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/async_rtp_control_iterative",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"simple_128_bit_interface": {"userdefname": "simple_128_bit_interface",
+"description": "A graph to demonstrate simple 128 bit donwsizer/upsizer ME_PL Interface on 4x4 ME Device ",
+"supp_proc": "me",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/simple_128_bit_interface",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"PacketSwitching": {"userdefname": "Packet Switching",
+"description": "A graph to demonstrate packet switching on 2x4 AIE Device. Use Device file me_2x4.json and Other flags --allow-pkt-switching options along with the default compilation options",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/PacketSwitching",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"simple_single_buffer": {"userdefname": "simple_single_buffer Test",
+"description": "A graph to demonstrate single buffer uses with margin copy ",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/simple_single_buffer",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"MappingPlacement": {"userdefname": "Mapping Placement",
+"description": "A graph with relocatable mapping expressed as template parameters.",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/MappingPlacement",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+"bsp_constraints": "false",
+},
+"simple_bypass": {"userdefname": "simple_bypass Test",
+"description": "A graph to demonstrate simple use of bypass 4x4 ME Device ",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/simple_bypass",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"simple_margin": {"userdefname": "simple_margin",
+"description": "A graph to demonstrate simple use of margin copy",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/simple_margin",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"simple": {"userdefname": "Simple",
+"description": "A simple 2-kernel graph with window-based data communication",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/simple",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"simple_chained": {"userdefname": "Simple_chained",
+"description": "A simple 2-kernel graph with array parameter triggered communication",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/simple_chained",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"simple_param": {"userdefname": "Simple_param ",
+"description": "A simple 1-kernel graph with scalar parameter update using external trigger",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/simple_param",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"simple_packet_split_merge": {"userdefname": "simple_packet_split_merge",
+"description": "A graph to demonstrate simple split and merge of packet stream. Use --allow-pkt-switching in other flags with default compilation options.",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/simple_packet_split_merge",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"GMIO_bandwidth": {"userdefname": "GMIO_bandwidth",
+"description": "A graph to demonstrate GMIO performance profiling. Use Device file S20.MEPL.json and Other flags -use-phy-shim -use-real-noc with default compilation options.",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/GMIO_bandwidth",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"ShimConstraints": {"userdefname": "ShimConstraints",
+"description": "Shim Constraints example. Use Device file me_9x4.json, Other flags -use-phy-shim=true --phydevice=xc10S80 and browse constraints.json from src folder along with the default compilation option",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/ShimConstraints",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"async_buffer": {"userdefname": "async_buffer",
+"description": "A graph to demonstrate cardano async windows. Use Other flags --enable-async-window and mapper option -c0 with default compilation options",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/async_buffer",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"StreamSwitchFIFO": {"userdefname": "Stream Switch FIFO",
+"description": "A graph to demonstrate use of Stream Switch FIFO to avoid deadlocks",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/StreamSwitchFIFO",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+"simple_64_bit_interface": {"userdefname": "simple_64_bit_interface",
+"description": "A graph to demonstrate simple 64 bit donwsizer/upsizer ME_PL Interface on 4x4 ME Device ",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/sw_apps_linux/simple_64_bit_interface",
+"os": "standalone_v7_1",
+"bsp_constraints": "false",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:51.690
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:51.698
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:51.699
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:51.707
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:52.336
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:52.360
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:53.165
+!MESSAGE XSCT Command: [platform create -name {mb_design_wrapper} -hw {/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa} -out {/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware};platform write], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:54.993
+!MESSAGE XSCT command with result: [platform create -name {mb_design_wrapper} -hw {/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa} -out {/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware};platform write], Result: [null, Successfully saved  the platform at "/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.039
+!MESSAGE XSCT Command: [domain create -name {standalone_domain} -display-name {standalone on microblaze_0} -os {standalone} -proc {microblaze_0} -runtime {cpp} -arch {32-bit} -support-app {hello_world}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.374
+!MESSAGE XSCT command with result: [domain create -name {standalone_domain} -display-name {standalone on microblaze_0} -os {standalone} -proc {microblaze_0} -runtime {cpp} -arch {32-bit} -support-app {hello_world}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.374
+!MESSAGE XSCT Command: [platform write], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.377
+!MESSAGE XSCT command with result: [platform write], Result: [null, Successfully saved  the platform at "/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.390
+!MESSAGE XSCT Command: [platform active {mb_design_wrapper}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.392
+!MESSAGE XSCT command with result: [platform active {mb_design_wrapper}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.392
+!MESSAGE XSCT Command: [platform generate -quick], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.399
+!MESSAGE XSCT command with result: [platform generate -quick], Result: [null, Successfully generated platform at "/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.656
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.719
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.720
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.724
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Result: [null, {"axi_gpio_buttons": {"hier_name": "axi_gpio_buttons",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_display": {"hier_name": "axi_gpio_display",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_leds": {"hier_name": "axi_gpio_leds",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_switches": {"hier_name": "axi_gpio_switches",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"fit_timer_0": {"hier_name": "fit_timer_0",
+"type": "fit_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.735
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.737
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.737
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:55.738
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.039
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_USE_REORDER_INSTR], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.040
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_USE_REORDER_INSTR], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.041
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_ENDIANNESS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.042
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.042
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_USE_BARREL], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.044
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_USE_BARREL], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.045
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_USE_PCMP_INSTR], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.046
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_USE_PCMP_INSTR], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.046
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_USE_DIV], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.047
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_USE_DIV], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.048
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_USE_FPU], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.049
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_USE_FPU], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.049
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_USE_HW_MUL], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.050
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_USE_HW_MUL], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.051
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_AREA_OPTIMIZED], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.052
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0 C_AREA_OPTIMIZED], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.055
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.059
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_4": {"name": "freertos10_xilinx",
+"version": "1.4",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_4",
+},
+"standalone_v7_1": {"name": "standalone",
+"version": "7.1",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/lib/bsp/standalone_v7_1",
+},
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.060
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.061
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.061
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.062
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.063
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.064
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa microblaze_0], Result: [null, axi_gpio_buttons axi_gpio_display axi_gpio_leds axi_gpio_switches axi_timer_0 axi_uartlite_0 microblaze_0_axi_intc microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.064
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.066
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Result: [null, {"axi_gpio_buttons": {"name": "gpio",
+"ver": "4.5",
+},
+"axi_gpio_display": {"name": "gpio",
+"ver": "4.5",
+},
+"axi_gpio_leds": {"name": "gpio",
+"ver": "4.5",
+},
+"axi_gpio_switches": {"name": "gpio",
+"ver": "4.5",
+},
+"axi_timer_0": {"name": "tmrctr",
+"ver": "4.5",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.3",
+},
+"microblaze_0_axi_intc": {"name": "intc",
+"ver": "3.10",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.3",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.3",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.10",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.067
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.111
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Result: [null, {"axi_gpio_buttons": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_5": {"name": "gpio",
+"version": "4.5",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_display": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_5": {"name": "gpio",
+"version": "4.5",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_leds": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_5": {"name": "gpio",
+"version": "4.5",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_switches": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_5": {"name": "gpio",
+"version": "4.5",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_timer_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"tmrctr_v4_5": {"name": "tmrctr",
+"version": "4.5",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/tmrctr_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_3": {"name": "uartlite",
+"version": "3.3",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"fit_timer_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_3": {"name": "uartlite",
+"version": "3.3",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "11.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_v2_10": {"name": "cpu",
+"version": "2.10",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_10",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_intc": {"version": "4.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"intc_v3_10": {"name": "intc",
+"version": "3.10",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/intc_v3_10",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_3": {"name": "bram",
+"version": "4.3",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_3": {"name": "bram",
+"version": "4.3",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_xlconcat": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/tools/Xilinx/Vitis/2019.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.112
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.114
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.114
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.115
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.175
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.176
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.177
+!MESSAGE XSCT Command: [::hsi::utils::opensw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.178
+!MESSAGE XSCT command with result: [::hsi::utils::opensw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.178
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa -sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss -app hello_world -processor microblaze_0 -os standalone -dir /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/src], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.206
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa -sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss -app hello_world -processor microblaze_0 -os standalone -dir /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/src], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.233
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/_ide/bitstream}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.245
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/_ide/bitstream}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.246
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.248
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Fri Mar 27 00:31:22 2020",
+"vivado_version": "2019.2",
+"part": "xc7a100tcsg324-1",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.299
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.301
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/CountDownTimerApp/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 10:41:56.329
+!MESSAGE Generating MD5 hash for file: /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.661
+!MESSAGE XSCT Command: [::hsi::utils::closehw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:41:56.664
+!MESSAGE XSCT command with result: [::hsi::utils::closehw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-02 10:41:57.898
+!MESSAGE Indexed 'mb_design_wrapper' (62 sources, 53 headers) in 1.16 sec: 1,641 declarations; 9,083 references; 25 unresolved inclusions; 3 syntax errors; 21 unresolved names (0.2%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-02 10:41:58.105
+!MESSAGE Indexed 'CountDownTimerApp' (2 sources, 52 headers) in 0.206 sec: 1,533 declarations; 2,238 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-02 10:41:58.106
+!MESSAGE Indexed 'CountDownTimerApp_system' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.jface 4 0 2020-04-02 10:42:00.426
+!MESSAGE The command ("com.xilinx.ide.application.ui.perspectve") is undefined
+!STACK 0
+java.lang.Exception
+	at org.eclipse.jface.action.ExternalActionManager$CommandCallback.isActive(ExternalActionManager.java:364)
+	at org.eclipse.jface.action.ActionContributionItem.isCommandActive(ActionContributionItem.java:626)
+	at org.eclipse.jface.action.ActionContributionItem.isVisible(ActionContributionItem.java:682)
+	at org.eclipse.jface.action.MenuManager.isChildVisible(MenuManager.java:982)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:752)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:472)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1396)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1375)
+	at org.eclipse.swt.widgets.Menu.gtk_show(Menu.java:779)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1935)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5898)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4084)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1383)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1626)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4516)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY org.eclipse.jface 4 0 2020-04-02 10:42:00.426
+!MESSAGE The command ("com.xilinx.sdk.performance.ui.PerformancePerspective") is undefined
+!STACK 0
+java.lang.Exception
+	at org.eclipse.jface.action.ExternalActionManager$CommandCallback.isActive(ExternalActionManager.java:364)
+	at org.eclipse.jface.action.ActionContributionItem.isCommandActive(ActionContributionItem.java:626)
+	at org.eclipse.jface.action.ActionContributionItem.isVisible(ActionContributionItem.java:682)
+	at org.eclipse.jface.action.MenuManager.isChildVisible(MenuManager.java:982)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:752)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:472)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1396)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1375)
+	at org.eclipse.swt.widgets.Menu.gtk_show(Menu.java:779)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1935)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5898)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4084)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1383)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1626)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4516)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY org.eclipse.ui 2 2 2020-04-02 10:42:02.927
+!MESSAGE Invalid preference category path: com.xilinx.sdk.ui.preferences.page (bundle: com.xilinx.sdk.ui.customize, page: com.xilinx.sdk.ui.customize.sdkCustomizationPreferences)
+
+!ENTRY org.eclipse.ui 2 2 2020-04-02 10:42:02.927
+!MESSAGE Invalid preference category path: com.autoesl.autopilot.ui.startup.preferences.AutoPilotRootPreferencePage (bundle: com.autoesl.autopilot.ui.cdfg.diagram, page: com.autoesl.autopilot.ui.cdfg.diagram.general)
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2020-04-02 10:42:08.777
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4467)
+	at org.eclipse.swt.SWT.error(SWT.java:4438)
+	at org.eclipse.swt.graphics.Image.init(Image.java:1388)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:445)
+	at org.eclipse.swt.custom.CTabFolder.updateBkImages(CTabFolder.java:3883)
+	at org.eclipse.swt.custom.CTabFolder.setBackground(CTabFolder.java:2353)
+	at org.eclipse.swt.custom.CTabFolder.setBackground(CTabFolder.java:2472)
+	at org.eclipse.e4.ui.css.swt.properties.custom.CSSPropertyUnselectedTabsSWTHandler.applyCSSProperty(CSSPropertyUnselectedTabsSWTHandler.java:71)
+	at org.eclipse.e4.ui.css.swt.properties.AbstractCSSPropertySWTHandler.applyCSSProperty(AbstractCSSPropertySWTHandler.java:32)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyCSSProperty(AbstractCSSEngine.java:729)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyleDeclaration(AbstractCSSEngine.java:539)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:414)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.swt.engine.CSSSWTEngineImpl.reapply(CSSSWTEngineImpl.java:80)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:490)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:417)
+	at org.eclipse.ui.internal.dialogs.ViewsPreferencePage.performOk(ViewsPreferencePage.java:287)
+	at org.eclipse.jface.preference.PreferencePage.performApply(PreferencePage.java:454)
+	at org.eclipse.ui.internal.dialogs.ViewsPreferencePage.performApply(ViewsPreferencePage.java:360)
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:286)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4940)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4518)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:211)
+	at com.xilinx.ide.application.ui.preferences.CustomOpenPreferencesAction.run(CustomOpenPreferencesAction.java:69)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4940)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4518)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2020-04-02 10:42:08.778
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4467)
+	at org.eclipse.swt.SWT.error(SWT.java:4438)
+	at org.eclipse.swt.graphics.Image.init(Image.java:1388)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:445)
+	at org.eclipse.swt.custom.CTabFolder.updateBkImages(CTabFolder.java:3883)
+	at org.eclipse.swt.custom.CTabFolder.setBackground(CTabFolder.java:2353)
+	at org.eclipse.e4.ui.css.swt.helpers.CSSSWTColorHelper.setBackground(CSSSWTColorHelper.java:357)
+	at org.eclipse.e4.ui.css.swt.properties.css2.CSSPropertyBackgroundSWTHandler.applyCSSPropertyBackgroundColor(CSSPropertyBackgroundSWTHandler.java:73)
+	at org.eclipse.e4.ui.css.core.dom.properties.css2.AbstractCSSPropertyBackgroundHandler.applyCSSProperty(AbstractCSSPropertyBackgroundHandler.java:35)
+	at org.eclipse.e4.ui.css.swt.properties.css2.CSSPropertyBackgroundSWTHandler.applyCSSProperty(CSSPropertyBackgroundSWTHandler.java:43)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyCSSProperty(AbstractCSSEngine.java:729)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyleDeclaration(AbstractCSSEngine.java:539)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:414)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:432)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:361)
+	at org.eclipse.e4.ui.css.swt.engine.CSSSWTEngineImpl.reapply(CSSSWTEngineImpl.java:80)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:490)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:417)
+	at org.eclipse.ui.internal.dialogs.ViewsPreferencePage.performOk(ViewsPreferencePage.java:287)
+	at org.eclipse.jface.preference.PreferencePage.performApply(PreferencePage.java:454)
+	at org.eclipse.ui.internal.dialogs.ViewsPreferencePage.performApply(ViewsPreferencePage.java:360)
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:286)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4940)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4518)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:211)
+	at com.xilinx.ide.application.ui.preferences.CustomOpenPreferencesAction.run(CustomOpenPreferencesAction.java:69)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4940)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4518)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:43:20.453
+!MESSAGE XSCT Command: [::hsi::utils::closehw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:43:20.457
+!MESSAGE XSCT command with result: [::hsi::utils::closehw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:43:20.458
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:43:20.523
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:43:20.523
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:43:20.524
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:43:20.525
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:43:20.526
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 10:43:20.526
+!MESSAGE Generating MD5 hash for file: /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:43:20.527
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:43:20.528
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 10:46:20.274
+!MESSAGE Executing command: /tools/Xilinx/Vitis/2019.2/bin/wbtcv -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 10:46:20.283
+!MESSAGE Executed Webtalk command
+!SESSION 2020-04-02 10:48:03.054 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-04-02 10:48:42.635
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.ui 4 4 2020-04-02 10:48:49.159
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2020-04-02 10:48:49.164
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:48:51.994
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:48:51.994
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:48:51.994
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:48:52.064
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:48:52.064
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:48:52.064
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:48:52.064
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:48:52.066
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2019.2/data]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:48:52.066
+!MESSAGE XSCT Command: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:48:52.067
+!MESSAGE XSCT command with result: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Result: [null, ]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:49:02.622
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:49:02.679
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Result: [null, ]. Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:49:02.686
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:49:02.688
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:49:02.689
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:49:02.692
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 10:49:02.694
+!MESSAGE Generating MD5 hash for file: /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:49:02.698
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:49:02.699
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:52:29.732
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:52:29.735
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:52:29.735
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:52:29.737
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 10:52:29.737
+!MESSAGE Generating MD5 hash for file: /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:52:29.738
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:52:29.739
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:53:17.136
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:53:17.138
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:53:17.138
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:53:17.140
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 10:53:17.140
+!MESSAGE Generating MD5 hash for file: /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:53:17.141
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:53:17.142
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:53:26.873
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:53:26.875
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:53:26.875
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:53:26.877
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 10:53:26.877
+!MESSAGE Generating MD5 hash for file: /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:53:26.877
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:53:26.878
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:55:22.724
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:55:22.726
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:55:22.727
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:55:22.729
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 10:55:22.729
+!MESSAGE Generating MD5 hash for file: /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:55:22.730
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:55:22.731
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:55:45.090
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:55:45.092
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:55:45.092
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:55:45.094
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 10:55:45.094
+!MESSAGE Generating MD5 hash for file: /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:55:45.094
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:55:45.095
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:56:13.297
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Thread: Worker-0: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:56:13.298
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-0: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:56:13.299
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-0: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:56:13.301
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-0: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 10:56:13.301
+!MESSAGE Generating MD5 hash for file: /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:56:13.301
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-0: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 10:56:13.302
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-0: Build Project
+!SESSION 2020-04-02 14:07:42.121 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-04-02 14:07:48.782
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.ui 4 4 2020-04-02 14:07:56.356
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2020-04-02 14:07:56.360
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:07:59.248
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:07:59.249
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:07:59.249
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:07:59.506
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:07:59.506
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:07:59.507
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:07:59.507
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:07:59.509
+!MESSAGE XSCT Command: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:07:59.509
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2019.2/data]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:07:59.510
+!MESSAGE XSCT command with result: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:08:12.934
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:08:12.998
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Result: [null, ]. Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:08:13.004
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:08:13.011
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:08:13.012
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:08:13.014
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-02 14:08:13.016
+!MESSAGE Generating MD5 hash for file: /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:08:13.022
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Thread: Worker-7: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-02 14:08:13.023
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-7: Build Project
