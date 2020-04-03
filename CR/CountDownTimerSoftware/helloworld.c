@@ -146,7 +146,7 @@ bool ModularDec(int* pValue, unsigned int modulo)
 bool IsTimerValueZero(const TTimerValue* pTimerValue)
 {
 	return ((pTimerValue->secLSValue == 0) && (pTimerValue->secMSValue == 0) &&
-			(pTimerValue->minLSValue == 0) && (pTimerValue->minMSValue));
+			(pTimerValue->minLSValue == 0) && (pTimerValue->minMSValue == 0));
 }
 
 // Conversion of the countdown timer values stored in a structure to an array of digits
@@ -171,7 +171,7 @@ void RefreshDisplays(unsigned char digitEnables, const unsigned int digitValues[
 	static unsigned int digitRefreshIdx = 0; // static variable - is preserved across calls
 
 	// Insert your code here...
-	unsigned char dispay = 0xFF;
+	unsigned char display = 0xFF;
 	display &= ~(1 << digitRefreshIdx);
 	XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA_OFFSET,  display);
 
@@ -207,8 +207,6 @@ void UpdateStateMachine(TFSMState* pFSMState, TButtonStatus* pButtonStatus, bool
 	TFSMState currentState = *pFSMState;
 	TFSMState nextState;
 
-	DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), *pButtonStatus->setPressed);
-
 	//updates here
 	switch (currentState)
 	{
@@ -220,21 +218,21 @@ void UpdateStateMachine(TFSMState* pFSMState, TButtonStatus* pButtonStatus, bool
 			*pSetFlags = 0x0;
 		}
 		//State
-		if(DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), *pButtonStatus->setPressed)) {
+		if(DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), pButtonStatus->setPressed)) {
 			nextState = SetLSSec;
-		}else if(DetectAndClearRisingEdge(&(pButtonStatus->startPrevious), *pButtonStatus->startPressed)) {
-			nextState = Started; 
+		}else if(DetectAndClearRisingEdge(&(pButtonStatus->startPrevious), pButtonStatus->setPressed)) {
+			nextState = Started;
 		}else {
 			nextState = currentState;
 		}
 		break;
-	
+
 	case Started:
 		//setFlag
 		*pSetFlags = 0x0;
 		//State
-		if(DetectAndClearRisingEdge(&(pButtonStatus->startPrevious), *pButtonStatus->startPressed) || zeroFlag){
-			nextState = Stopped; 
+		if(DetectAndClearRisingEdge(&(pButtonStatus->startPrevious), pButtonStatus->startPressed) || zeroFlag){
+			nextState = Stopped;
 		}else {
 			nextState = currentState;
 		}
@@ -244,50 +242,50 @@ void UpdateStateMachine(TFSMState* pFSMState, TButtonStatus* pButtonStatus, bool
 		// setFlag
 		*pSetFlags = 0x1;
 		//State
-		if(DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), *pButtonStatus->setPressed)) {
-			nextState = SetMSSec; 
+		if(DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), pButtonStatus->setPressed)) {
+			nextState = SetMSSec;
 		}else {
 			nextState = currentState;
-		}	
-		break;		
+		}
+		break;
 
 	case SetMSSec:
 		// setFlag
 		*pSetFlags = 0x2;
 		//State
-		if(DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), *pButtonStatus->setPressed)) {
-			nextState = SetLSMin; 
+		if(DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), pButtonStatus->setPressed)) {
+			nextState = SetLSMin;
 		}else {
 			nextState = currentState;
-		}	
+		}
 		break;
 
 	case SetLSMin:
 		// setFlag
 		*pSetFlags = 0x4;
 		//State
-		if(DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), *pButtonStatus->setPressed)) {
-			nextState = SetMSMin; 
+		if(DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), pButtonStatus->setPressed)) {
+			nextState = SetMSMin;
 		}else {
 			nextState = currentState;
-		}	
+		}
 		break;
 
 	case SetMSMin:
 		// setFlag
 		*pSetFlags = 0x8;
 		//State
-		if(DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), *pButtonStatus->setPressed)) {
-			nextState = Stopped; 
+		if(DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), pButtonStatus->setPressed)) {
+			nextState = Stopped;
 		}else {
 			nextState = currentState;
-		}	
+		}
 		break;
 
 	default:
 		break;
 	}
-	
+
 
 	//write next state
 	*pFSMState = nextState;
@@ -298,34 +296,34 @@ void SetCountDownTimer(TFSMState fsmState, const TButtonStatus* pButtonStatus, T
 	// Insert your code here...
 	switch(fsmState){
 		case SetLSSec:
-			if(*pButtonStatus->downPressed) {
-				ModularDec(*pTimerValue->secLSValue, 10);
-			}else if (*pButtonStatus->upPressed){
-				ModularInc(*pTimerValue->secLSValue, 10);
+			if(pButtonStatus->downPressed) {
+				ModularDec(&pTimerValue->secLSValue, 10);
+			}else if (pButtonStatus->upPressed){
+				ModularInc(&pTimerValue->secLSValue, 10);
 			}
 			break;
-		
+
 		case SetMSSec:
-			if(*pButtonStatus->downPressed) {
-				ModularDec(*pTimerValue->secMSValue, 6);
-			}else if (*pButtonStatus->upPressed){
-				ModularInc(*pTimerValue->secMSValue, 6);
+			if(pButtonStatus->downPressed) {
+				ModularDec(&pTimerValue->secMSValue, 6);
+			}else if (pButtonStatus->upPressed){
+				ModularInc(&pTimerValue->secMSValue, 6);
 			}
 			break;
 
 		case SetLSMin:
-			if(*pButtonStatus->downPressed) {
-				ModularDec(*pTimerValue->minLSValue, 10);
-			}else if (*pButtonStatus->upPressed){
-				ModularInc(*pTimerValue->minLSValue, 10);
+			if(pButtonStatus->downPressed) {
+				ModularDec(&pTimerValue->minLSValue, 10);
+			}else if (pButtonStatus->upPressed){
+				ModularInc(&pTimerValue->minLSValue, 10);
 			}
 			break;
-		
+
 		case SetMSMin:
-			if(*pButtonStatus->downPressed) {
-				ModularDec(*pTimerValue->minMSValue, 6);
-			}else if (*pButtonStatus->upPressed){
-				ModularInc(*pTimerValue->minMSValue, 6);
+			if(pButtonStatus->downPressed) {
+				ModularDec(&pTimerValue->minMSValue, 6);
+			}else if (pButtonStatus->upPressed){
+				ModularInc(&pTimerValue->minMSValue, 6);
 			}
 			break;
 
@@ -337,7 +335,7 @@ void SetCountDownTimer(TFSMState fsmState, const TButtonStatus* pButtonStatus, T
 void DecCountDownTimer(TFSMState fsmState, TTimerValue* pTimerValue)
 {
 	// Insert your code here...
-	if(fsmState == Started) {	
+	if(fsmState == Started) {
 		if(ModularDec(&pTimerValue->secLSValue, 10)) {
 			if(ModularDec(&pTimerValue->secMSValue, 6)){
 				if(ModularDec(&pTimerValue->minLSValue, 10)){

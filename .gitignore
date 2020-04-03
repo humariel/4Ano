@@ -1,2 +1,8 @@
 *.wdb
 *.wdf
+CR/.*
+CR/DisplayPart2/*
+CR/IDE.log
+CR/*.zip
+CR/vivado-boards-master
+ES/*
