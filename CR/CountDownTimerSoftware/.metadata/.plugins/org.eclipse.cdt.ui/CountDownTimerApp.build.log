@@ -1,4 +1,4 @@
-14:08:13 **** Incremental Build of configuration Debug for project CountDownTimerApp ****
+01:37:40 **** Incremental Build of configuration Debug for project CountDownTimerApp ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
@@ -13,9 +13,9 @@ Finished building target: CountDownTimerApp.elf
 Invoking: MicroBlaze Print Size
 mb-size CountDownTimerApp.elf  |tee "CountDownTimerApp.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6136	    364	   3116	   9616	   2590	CountDownTimerApp.elf
+   6208	    364	   3116	   9688	   25d8	CountDownTimerApp.elf
 Finished building: CountDownTimerApp.elf.size
  
 
-14:08:13 Build Finished (took 526ms)
+01:37:40 Build Finished (took 117ms)
 

@@ -172,15 +172,13 @@ void RefreshDisplays(unsigned char digitEnables, const unsigned int digitValues[
 
 	// Insert your code here...
 	unsigned char display = 0xFF;
-	display &= ~(1 << digitRefreshIdx);
+	display &= ~((1 << digitRefreshIdx) & digitEnables);
 	XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA_OFFSET,  display);
 
-	unsigned char value = Bin2Hex(digitValues[digitRefreshIdx]);
-	//if decimal point of this display is active
-	if(decPtEnables & (1 << digitRefreshIdx)){
-		//set decimal point bit
-		value &= ~(1 << 7);
-	}
+	//get hex value and set dec point to off
+	unsigned char value = Bin2Hex(digitValues[digitRefreshIdx]) | 0x80;
+	//turn dec point on if enabled
+	value &= ~(decPtEnables << (7-digitRefreshIdx));
     XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA2_OFFSET, value);
 	//
 
@@ -220,7 +218,7 @@ void UpdateStateMachine(TFSMState* pFSMState, TButtonStatus* pButtonStatus, bool
 		//State
 		if(DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), pButtonStatus->setPressed)) {
 			nextState = SetLSSec;
-		}else if(DetectAndClearRisingEdge(&(pButtonStatus->startPrevious), pButtonStatus->setPressed)) {
+		}else if(DetectAndClearRisingEdge(&(pButtonStatus->startPrevious), pButtonStatus->startPressed)) {
 			nextState = Started;
 		}else {
 			nextState = currentState;
