@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date         : Wed Apr  1 13:48:22 2020
+| Date         : Sun Apr 19 18:08:46 2020
 | Host         : gabriel-NH50-70RA running 64-bit Zorin OS 15.2
 | Command      : report_methodology -file mb_design_wrapper_methodology_drc_routed.rpt -pb mb_design_wrapper_methodology_drc_routed.pb -rpx mb_design_wrapper_methodology_drc_routed.rpx
 | Design       : mb_design_wrapper

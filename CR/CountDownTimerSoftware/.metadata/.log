@@ -3447,3 +3447,275 @@ java.io.FileNotFoundException: /icons/elcl16/watchpoint_co.gif
 
 !ENTRY com.xilinx.sdk.utils 0 0 2020-04-04 01:37:40.465
 !MESSAGE XSCT command with result: [::hsi::utils::closesw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-21: Build Project
+!SESSION 2020-04-08 18:07:32.150 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-04-08 18:07:48.327
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.ui 4 4 2020-04-08 18:07:55.716
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2020-04-08 18:07:55.719
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:07:58.595
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:07:58.596
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:07:58.596
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:07:58.599
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:07:58.600
+!MESSAGE XSCT Command: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:07:58.846
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:07:58.847
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:07:58.847
+!MESSAGE XSCT command with result: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Result: [null, ]. Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:07:58.848
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:07:58.849
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2019.2/data]. Thread: Worker-0: Initializing s/w repositories
+!SESSION 2020-04-08 18:21:10.229 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-04-08 18:21:14.719
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.ui 4 4 2020-04-08 18:21:20.988
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2020-04-08 18:21:20.992
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:21:23.890
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:21:23.890
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:21:23.891
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:21:23.893
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:21:23.956
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:21:23.957
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:21:23.957
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:21:23.958
+!MESSAGE XSCT Command: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:21:23.958
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2019.2/data]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-08 18:21:23.959
+!MESSAGE XSCT command with result: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Result: [null, ]. Thread: Thread-21
+!SESSION 2020-04-19 18:11:04.201 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-04-19 18:11:08.175
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.ui 4 4 2020-04-19 18:11:15.313
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2020-04-19 18:11:15.318
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:11:18.348
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:11:18.348
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-22
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:11:18.348
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:11:18.351
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:11:18.351
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-22
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:11:18.352
+!MESSAGE XSCT Command: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Thread: Thread-22
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:11:18.541
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:11:18.541
+!MESSAGE XSCT command with result: [setws /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware], Result: [null, ]. Thread: Thread-22
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:11:18.542
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:11:18.543
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2019.2/data]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY org.eclipse.ui 4 4 2020-04-19 18:11:19.250
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler@6b2d01e2} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-04-19 18:11:39.571
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-04-19 18:11:39.573
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-04-19 18:11:39.574
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:12:04.952
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:12:05.019
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:12:05.020
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:12:05.025
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/export/mb_design_wrapper/hw/mb_design_wrapper.xsa], Result: [null, {"axi_gpio_buttons": {"hier_name": "axi_gpio_buttons",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_display": {"hier_name": "axi_gpio_display",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_leds": {"hier_name": "axi_gpio_leds",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_switches": {"hier_name": "axi_gpio_switches",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"fit_timer_0": {"hier_name": "fit_timer_0",
+"type": "fit_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:12:45.470
+!MESSAGE XSCT Command: [platform read {/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/platform.spr}], Thread: Worker-6: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:12:45.566
+!MESSAGE XSCT command with result: [platform read {/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/mb_design_wrapper/platform.spr}], Result: [null, ]. Thread: Worker-6: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:12:45.586
+!MESSAGE XSCT Command: [platform active {mb_design_wrapper}], Thread: Worker-6: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:12:45.587
+!MESSAGE XSCT command with result: [platform active {mb_design_wrapper}], Result: [null, ]. Thread: Worker-6: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:12:50.225
+!MESSAGE XSCT Command: [platform config -updatehw {/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa}], Thread: Worker-5: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-04-19 18:12:50.417
+!MESSAGE XSCT command with result: [platform config -updatehw {/home/gabriel/UA/4Ano/CR/CountDownTimerSoftware/Nexys4DefaultPlatform.ori/mb_design_wrapper.xsa}], Result: [null, ]. Thread: Worker-5: Updating hardware platform

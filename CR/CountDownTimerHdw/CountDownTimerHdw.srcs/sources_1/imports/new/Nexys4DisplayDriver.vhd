@@ -62,18 +62,18 @@ begin
         end if;
     end process;
     --anodos
-    process
+    process(s_counter)
     begin
         dispEn_n <= (others => '1');
         dispEn_n(to_integer(s_counter)) <= '0'; 
     end process;
     --decimal point
-    process
+    process(s_counter)
     begin
         dispPt_n <= not(decPtEn(to_integer(s_counter)));
     end process;
     --multiplexer
-    process
+    process(s_counter)
     begin
         case s_counter is
           when "000" =>   s_segment <= digVal0;
@@ -87,7 +87,7 @@ begin
         end case;
     end process;
     --catodos
-    process
+    process(digitEn)
     begin
         if(digitEn(to_integer(s_counter)) = '1') then
             dispSeg_n <= s_rom(to_integer(unsigned(s_segment)));

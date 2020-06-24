@@ -10,3 +10,11 @@ timestamp=[2020-04-02 14:07:57], mode=WORKBENCH_START, duration=0:00:08.666, dur
 timestamp=[2020-04-02 14:07:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.778, duration_ms=778, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CountDownTimerApp,CountDownTimerApp_system,RemoteSystemsTempFiles,mb_design_wrapper}
 timestamp=[2020-04-04 00:26:08], mode=WORKBENCH_START, duration=0:00:08.338, duration_ms=8338, data={}
 timestamp=[2020-04-04 00:26:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.869, duration_ms=869, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CountDownTimerApp,CountDownTimerApp_system,RemoteSystemsTempFiles,mb_design_wrapper}
+timestamp=[2020-04-08 18:07:56], mode=WORKBENCH_START, duration=0:00:08.149, duration_ms=8149, data={}
+timestamp=[2020-04-08 18:07:57], mode=WORKBENCH_UI_INIT, duration=0:00:00.626, duration_ms=626, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CountDownTimerApp,CountDownTimerApp_system,RemoteSystemsTempFiles,mb_design_wrapper}
+timestamp=[2020-04-08 18:21:21], mode=WORKBENCH_START, duration=0:00:06.944, duration_ms=6944, data={}
+timestamp=[2020-04-08 18:21:22], mode=WORKBENCH_UI_INIT, duration=0:00:00.720, duration_ms=720, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CountDownTimerApp,CountDownTimerApp_system,RemoteSystemsTempFiles,mb_design_wrapper}
+timestamp=[2020-04-19 18:11:16], mode=WORKBENCH_START, duration=0:00:08.004, duration_ms=8004, data={}
+timestamp=[2020-04-19 18:11:16], mode=WORKBENCH_UI_INIT, duration=0:00:00.570, duration_ms=570, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CountDownTimerApp,CountDownTimerApp_system,RemoteSystemsTempFiles,mb_design_wrapper}
+timestamp=[2020-04-19 18:11:39], mode=PLATFORM_GENERATION, duration=0:00:09.224, duration_ms=9224, data={name=mb_design_wrapper}
+timestamp=[2020-04-19 18:13:13], mode=PLATFORM_GENERATION, duration=0:00:04.634, duration_ms=4634, data={name=mb_design_wrapper}

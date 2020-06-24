@@ -1,2 +1,6 @@
-Nothing to build in platform 'mb_design_wrapper'
+18:13:09 **** Incremental Build of project mb_design_wrapper ****
+buildplatform.sh 40063 mb_design_wrapper no_domain_build 
+XSDB Server Channel: tcfchan#2
+
+18:13:13 Build Finished (took 4s.600ms)
 

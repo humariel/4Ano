@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
 -- Date        : Fri Mar 27 00:35:48 2020
 -- Host        : ASRO-NUC running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Users/asroliveira/CloudStation/CR/Nexys4DefaultPlatform/Nexys4DefaultPlatform.srcs/sources_1/bd/mb_design/ip/mb_design_fit_timer_0_0/mb_design_fit_timer_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top mb_design_fit_timer_0_0 -prefix
+--               mb_design_fit_timer_0_0_ mb_design_fit_timer_0_0_sim_netlist.vhdl
 -- Design      : mb_design_fit_timer_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -32,8 +32,6 @@ entity mb_design_fit_timer_0_0_Divide_part is
     loop_Bit_3 : in STD_LOGIC;
     loop_Bit_4 : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of mb_design_fit_timer_0_0_Divide_part : entity is "Divide_part";
 end mb_design_fit_timer_0_0_Divide_part;
 
 architecture STRUCTURE of mb_design_fit_timer_0_0_Divide_part is
@@ -605,8 +603,6 @@ entity mb_design_fit_timer_0_0_FIT_timer is
   attribute C_INACCURACY of mb_design_fit_timer_0_0_FIT_timer : entity is 0;
   attribute C_NO_CLOCKS : integer;
   attribute C_NO_CLOCKS of mb_design_fit_timer_0_0_FIT_timer : entity is 100000;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of mb_design_fit_timer_0_0_FIT_timer : entity is "FIT_timer";
 end mb_design_fit_timer_0_0_FIT_timer;
 
 architecture STRUCTURE of mb_design_fit_timer_0_0_FIT_timer is
